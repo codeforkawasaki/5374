@@ -34,5 +34,5 @@
 - mamix1116
 - nobuotto
 - slouis214
-- suenaga
+- suenaga (Daijiro SUENAGA)
 - ukinedori
