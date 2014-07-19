@@ -35,4 +35,4 @@
 - nobuotto
 - slouis214
 - suenaga (Daijiro SUENAGA)
-- ukinedori
+- ukinedori (Takashi KOIKE)
