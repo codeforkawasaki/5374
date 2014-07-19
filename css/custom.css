@@ -81,7 +81,7 @@ a.accordion-toggle-top:hover{
        position: absolute;
        padding-left: 10px;
 }
-a,a:hover{	
+a,a:hover{
 	color: white;
 	text-decoration: none;
 }
@@ -117,4 +117,9 @@ a,a:hover{
 #select_area_title{
 	text-align: center;
 	font-size: 20px;
+}
+
+a.normal {
+	color: #FF0000;
+	text-decoration: underline;
 }
