@@ -33,6 +33,6 @@
 - kk300
 - mamix1116
 - nobuotto
-- slouis214 (suzuki louis)
+- slouis214
 - suenaga
 - ukinedori
