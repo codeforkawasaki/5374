@@ -1,6 +1,9 @@
-
 # .v4p backup files
 *~.xml
 
 # Dynamic plugins .dll
 bin/
+
+Thumbs.db
+.DS_Store
+
