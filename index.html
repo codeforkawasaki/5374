@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="5374.jp 神奈川県川崎市版" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://kawasaki.5374.jp/" />
+    <meta property="og:description" content="Code for Kanazawaの作った5374.jpの神奈川県川崎市版です。5374.jpを使えば、あなたの地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
+    <meta property="og:image" content="http://kawasaki.5374.jp/img/ogp.jpg" width="1200" height="600" />
+    <title>5374(ｺﾞﾐﾅｼ).jp 神奈川県川崎市版</title> 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="css/custom.css" rel="stylesheet" media="screen" />
+  </head>
+  <body>
+  <style id="accordion-style" type="text/css"></style>
+  <div id="accordion"></div>
+  <select class="form-control" id="select_area_master"></select>
+  <select class="form-control" id="select_area"></select>
+  <div class="accordion" id="accordion3">
+
+    <div class="accordion-group-top">
+      <div class="accordion-heading">
+        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_1">川崎市の問い合わせ先</a>
+      </div>
+      <div id="collapse3_1" class="accordion-body collapse">
+        <div class="accordion-inner">
+          <div id="help">
+              <p>
+              <p><strong>川崎市　</strong>環境局生活環境部収集計画課</p>
+              <p>〒210-8577 川崎市川崎区宮本町1番地</p>
+              <p><strong>電話：</strong><u><a href="tel:0442002583" style="color:#000000;">044-200-2583</a></u></p>
+              <p><strong>ファクス：</strong>044-200-3923</p>
+              <p><strong>メールアドレス：</strong><u><a href="mailto:30syusyu@city.kawasaki.jp"  style="color:#000000;">30syusyu@city.kawasaki.jp</a></u></p>
+              <p><strong>ごみ・リサイクル URL：</strong><u><a href="http://www.city.kawasaki.jp/kurashi/category/24-1-0-0-0-0-0-0-0-0.html" style="color:#000000;">ごみ・リサイクル</a></u></p>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="accordion-group-top">
+      <div class="accordion-heading">
+        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_0">5374.jpについて</a>
+      </div>
+      <div id="collapse3_0" class="accordion-body collapse">
+        <div class="accordion-inner">
+          <div id="help">
+ゴミの問題は、どの地域でも深刻になりつつあります。
+Code for Kanazawaでは、先ずは正しいゴミの捨て方に注目しました。
+目的と使い方は、とてもシンプルです。
+            <h2>目的</h2>
+「いつ、どのゴミが収集されているのか？」
+例えばお引っ越しをされた場合や、新しく金沢市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
+            <h2>使い方</h2>
+            <h3>色でゴミのジャンルを表示</h3>
+            <p>一番近いゴミの日とジャンルを上から順に表示しています。</p>
+            <h3>捨てる事が可能なゴミ</h3>
+            <p>ゴミのジャンルをタップすると、捨てることが可能なゴミの一覧を見ることができます</p>
+            <h3>設定</h3>
+            <p>お住まいの地域を選択することで、ゴミ収集日が自動的に更新されます。</p>
+            <div id="caption">
+              <h4>提供されるゴミ情報について</h4>
+              <p>川崎市が公開しているデータをオープン川崎/Code for Kanagawaが独自に解析し、アプリに実装しました。</p>
+              <h4>ライセンスについて</h4>
+              <p>本アプリの著作権はCode for Kanazawaに帰属します。</p>
+            </div>
+            <div id="cfk">
+              <h3>Code for Kanazawaについて</h3>
+              <p>コードで、世界をHappyに。<br>
+各地域には様々な課題があり、解決するためのコミュニティ（団体）も数多くあります。<br>
+課題の中には、ITやデザインの力で解決できるものも多くありますが、全てのコミュニティにそのスキル（技術）が備わっているわけではありません。<br><br>
+Code for Kanazawa（CfK）は、市民の課題を集め、その課題を整理・分析した上で、メンバーが実際に課題解決となるソフトウェアやハードウェア（仕組みや方法）を開発します。<br>
+私たちは、デザインをして、ソフトウェアコードを書き、課題を解決するサービスを完成させるのです。さらに、そのサービスを提供し続ける力も持ちます。<br><br>
+CfKは市民のための組織です。行政や民間企業の影響を受けずに中立・公益の立場から物事を判断するよう心がけています。<br><br>
+公式サイト<br>
+<a href="http://www.codeforkanazawa.org/" class="normal">http://www.codeforkanazawa.org/</a>
+              </p>
+            <div id="cfk">
+              <h3>Code for Kawasaki/オープン川崎について</h3>
+              <p>
+                Code for Kawasakiは、<a href="http://code4japan.org/" class="normal">Code for Japan </a>のコンセプトに賛同する、<br>
+                川崎市の地域社会の向上をITで行うことを目指すコミュニティです
+              </p>
+              <p>
+                Facebookページ<br>
+                <a href="https://www.facebook.com/codeforkawasaki" class="normal">https://www.facebook.com/codeforkawasaki</a>
+              </p>
+              <p>
+                貢献者(Contributors)
+                <ul>
+                    <li>azusaru</li>
+                    <li>blavodmania</li>
+                    <li>homata (Hiroshi Omata)</li>
+                    <li>jumilla (Fumio Furukawa)</li>
+                    <li>kk300</li>
+                    <li>mamix1116</li>
+                    <li>nobuotto</li>
+                    <li>slouis214</li>
+                    <li>suenaga (Daijiro SUENAGA)</li>
+                    <li>ukinedori (Takashi KOIKE)</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript plugins (requires jQuery) -->
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) 
+  <script src="js/respond.js"></script>
+  -->  
+  <!-- ブックマークお勧めポップアップ追加-->
+  <script src="js/bookmark-bubble/bookmark_bubble.min.js"></script>
+  <script src="js/bookmark-bubble/example/example.min.js"></script>
+  <script src="js/setting.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
