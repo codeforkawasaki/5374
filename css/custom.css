@@ -12,6 +12,10 @@ font-family:".HiraKakuInterface-W1",'Lucida Grande',
 /*#accordion-group2{background-color:  #ea3b13;}*//* 資源 */
 /*#accordion-group3{background-color:  #2dc7aa;}*//* びん */
 
+#accordion .accordion-body ul li {
+	list-style: none;
+}
+
 .accordion-group{margin-bottom:0;border:0;border-radius:0}
 
 #accordion3 
