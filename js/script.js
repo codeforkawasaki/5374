@@ -8,7 +8,7 @@ var AreaModel = function() {
   this.label;
   this.centerName;
   this.center;
-  this.trash = new Array();
+  this.trash = [];
   /**
   各ゴミのカテゴリに対して、最も直近の日付を計算します。
 */
@@ -16,7 +16,7 @@ var AreaModel = function() {
     for (var i = 0; i < this.trash.length; i++) {
       this.trash[i].calcMostRect(this);
     }
-  }
+  };
   /**
     休止期間（主に年末年始）かどうかを判定します。
   */
@@ -28,7 +28,7 @@ var AreaModel = function() {
       return true;
     }
     return false;
-  }
+  };
   /**
     ゴミ処理センターを登録します。
     名前が一致するかどうかで判定を行っております。
@@ -39,7 +39,7 @@ var AreaModel = function() {
         this.center = center_data[i];
       }
     }
-  }
+  };
   /**
   ゴミのカテゴリのソートを行います。
 */
@@ -51,8 +51,8 @@ var AreaModel = function() {
       if (at > bt) return 1;
       return 0;
     });
-  }
-}
+  };
+};
 
 /**
   各ゴミのカテゴリを管理するクラスです。
@@ -62,14 +62,14 @@ var TrashModel = function(_lable, _cell, remarks) {
   this.dayLabel;
   this.mostRecent;
   this.dayList;
-  this.mflag = new Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+  this.mflag = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   if (_cell.search(/:/) >= 0) {
     var flag = _cell.split(":");
     this.dayCell = flag[0].split(" ");
     var mm = flag[1].split(" ");
   } else {
     this.dayCell = _cell.split(" ");
-    var mm = new Array("4", "5", "6", "7", "8", "9", "10", "11", "12", "1", "2", "3");
+    var mm = ["4", "5", "6", "7", "8", "9", "10", "11", "12", "1", "2", "3"];
   }
   for (var m in mm) {
     this.mflag[mm[m] - 1] = 1;
@@ -82,11 +82,11 @@ var TrashModel = function(_lable, _cell, remarks) {
   var today = new Date();
 
   for (var j in this.dayCell) {
-    if (this.dayCell[j].length == 1) {
+    if (this.dayCell[j].length === 1) {
       result_text += "毎週" + this.dayCell[j] + "曜日 ";
-    } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
+    } else if (this.dayCell[j].length === 2 && this.dayCell[j].substr(0,1) != "*") {
       result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
-    } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
+    } else if (this.dayCell[j].length === 2 && this.dayCell[j].substr(0,1) == "*") {
     } else {
       // 不定期回収の場合（YYYYMMDD指定）
       result_text = "不定期 ";
@@ -98,7 +98,7 @@ var TrashModel = function(_lable, _cell, remarks) {
   this.getDateLabel = function() {
     var result_text = this.mostRecent.getFullYear() + "/" + (1 + this.mostRecent.getMonth()) + "/" + this.mostRecent.getDate();
     return this.getRemark() + this.dayLabel + " " + result_text;
-  }
+  };
 
   var day_enum = ["日", "月", "火", "水", "木", "金", "土"];
 
@@ -107,7 +107,7 @@ var TrashModel = function(_lable, _cell, remarks) {
       if (day_enum[i] == str) {
         return i;
       }
-    };
+    }
     return -1;
   }
   /**
@@ -122,10 +122,10 @@ var TrashModel = function(_lable, _cell, remarks) {
             ret += remark.text + "<br/>";
           }
         });
-      };
+      }
     });
     return ret;
-  }
+  };
   /**
   このゴミの年間のゴミの日を計算します。
   センターが休止期間がある場合は、その期間１週間ずらすという実装を行っております。
@@ -133,7 +133,7 @@ var TrashModel = function(_lable, _cell, remarks) {
   this.calcMostRect = function(areaObj) {
     var day_mix = this.dayCell;
     var result_text = "";
-    var day_list = new Array();
+    var day_list = [];
 
     // 定期回収の場合
     if (this.regularFlg == 1) {
@@ -148,7 +148,7 @@ var TrashModel = function(_lable, _cell, remarks) {
         var month = (curMonth % 12) + 1;
 
         // 収集が無い月はスキップ
-        if (this.mflag[month - 1] == 0) {
+        if (this.mflag[month - 1] === 0) {
             continue;
         }
         for (var j in day_mix) {
@@ -196,9 +196,9 @@ var TrashModel = function(_lable, _cell, remarks) {
     } else {
       // 不定期回収の場合は、そのまま指定された日付をセットする
       for (var j in day_mix) {
-        var year = parseInt(day_mix[j].substr(0, 4));
-        var month = parseInt(day_mix[j].substr(4, 2)) - 1;
-        var day = parseInt(day_mix[j].substr(6, 2));
+        var year = parseInt(day_mix[j].substr(0, 4), 10);
+        var month = parseInt(day_mix[j].substr(4, 2), 10) - 1;
+        var day = parseInt(day_mix[j].substr(6, 2), 10);
         var d = new Date(year, month, day);
         day_list.push(d);
       }
@@ -211,19 +211,19 @@ var TrashModel = function(_lable, _cell, remarks) {
       if (at < bt) return -1;
       if (at > bt) return 1;
       return 0;
-    })
+    });
     //直近の日付を更新
     var now = new Date();
 
     for (var i in day_list) {
-      if (this.mostRecent == null && now.getTime() < day_list[i].getTime() + 24 * 60 * 60 * 1000) {
+      if (!this.mostRecent && now.getTime() < day_list[i].getTime() + 24 * 60 * 60 * 1000) {
         this.mostRecent = day_list[i];
         break;
       }
-    };
+    }
 
     this.dayList = day_list;
-  }
+  };
   /**
    計算したゴミの日一覧をリスト形式として取得します。
   */
@@ -232,11 +232,11 @@ var TrashModel = function(_lable, _cell, remarks) {
     for (var i in this.dayList) {
       var d = this.dayList[i];
       day_text += "<li>" + d.getFullYear() + "/" + (d.getMonth() + 1) + "/" + d.getDate() + "</li>";
-    };
+    }
     day_text += "</ul>";
     return day_text;
-  }
-}
+  };
+};
 /**
 センターのデータを管理します。
 */
@@ -249,13 +249,13 @@ var CenterModel = function(row) {
   this.name = row[0];
   this.startDate = getDay(row, 1);
   this.endDate = getDay(row, 2);
-}
+};
 /**
 * ゴミのカテゴリを管理するクラスです。
 * description.csvのモデルです。
 */
 var DescriptionModel = function(data) {
-  this.targets = new Array();
+  this.targets = [];
 
   this.label = data[0];
   this.sublabel = data[1];//not used
@@ -263,7 +263,7 @@ var DescriptionModel = function(data) {
   this.styles = data[3];
   this.background = data[4];
 
-}
+};
 /**
  * ゴミのカテゴリの中のゴミの具体的なリストを管理するクラスです。
  * target.csvのモデルです。
@@ -273,7 +273,7 @@ var TargetRowModel = function(data) {
   this.name = data[1];
   this.notice = data[2];
   this.furigana = data[3];
-}
+};
 
 /**
  * ゴミ収集日に関する備考を管理するクラスです。
@@ -282,7 +282,7 @@ var TargetRowModel = function(data) {
 var RemarkModel = function() {
   this.id;
   this.text;
-}
+};
 
 /**
   エリアマスターを管理するクラスです。
@@ -291,7 +291,7 @@ var RemarkModel = function() {
 var AreaMasterModel = function() {
   this.mastercode;
   this.name;
-}
+};
 
 
 /* var windowHeight; */
@@ -299,12 +299,12 @@ var AreaMasterModel = function() {
 $(function() {
 /*   windowHeight = $(window).height(); */
 
-  var center_data = new Array();
-  var descriptions = new Array();
-  var areaModels = new Array();
-  var remarks = new Array();
-  var areaMasterModels  = new Array();
-/*   var descriptions = new Array(); */
+  var center_data = [];
+  var descriptions = [];
+  var areaModels = [];
+  var remarks = [];
+  var areaMasterModels  = [];
+/*   var descriptions = []; */
 
 
   // ローカルストレージ（エリア名）
@@ -345,7 +345,7 @@ $(function() {
           ret = [];
       for (var i in line) {
         //空行はスルーする。
-        if (line[i].length == 0) continue;
+        if (line[i].length === 0) continue;
 
         var row = line[i].split(",");
         ret.push(row);
@@ -431,7 +431,7 @@ $(function() {
         for (var i in areaModels) {
           var area = areaModels[i];
           area.setCenter(center_data);
-        };
+        }
         //エリアとゴミ処理センターを対応後に、表示のリストを生成する。
         //ListメニューのHTML作成
         var selected_name = getSelectedAreaName();
@@ -482,7 +482,7 @@ $(function() {
               descriptions[j].targets.push(row);
               break;
             }
-          };
+          }
         }
         after_action();
         $("#accordion2").show();
@@ -508,8 +508,8 @@ $(function() {
     var accordion_height = window.innerHeight / descriptions.length;
     if(descriptions.length>4){
       accordion_height = window.innerHeight / 4.1;
-      if (accordion_height>140) {accordion_height = window.innerHeight / descriptions.length;};
-      if (accordion_height<130) {accordion_height=130;};
+      if (accordion_height>140) {accordion_height = window.innerHeight / descriptions.length;}
+      if (accordion_height<130) {accordion_height=130;}
     }
     var styleHTML = "";
     var accordionHTML = "";
@@ -529,7 +529,7 @@ $(function() {
           for (var j in targets) {
             var target = targets[j];
             if (furigana != target.furigana) {
-              if (furigana != "") {
+              if (furigana !== "") {
                 target_tag += "</ul>";
               }
 
@@ -547,15 +547,15 @@ $(function() {
 
           var dateLabel = trash.getDateLabel();
           //あと何日かを計算する処理です。
-          var leftDay = Math.ceil((trash.mostRecent.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
+          var leftDay = Math.ceil((trash.mostRecent.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
 
           var leftDayText = "";
-          if (leftDay == 0) {
+          if (leftDay === 0) {
             leftDayText = "今日";
-          } else if (leftDay == 1) {
+          } else if (leftDay === 1) {
             leftDayText = "明日";
-          } else if (leftDay == 2) {
-            leftDayText = "明後日"
+          } else if (leftDay === 2) {
+            leftDayText = "明後日";
           } else {
             leftDayText = leftDay + "日後";
           }
@@ -602,7 +602,7 @@ $(function() {
     });
     //アコーディオンの非表示部分をクリックしたら
     $(".accordion-body").on("hidden.bs.collapse", function() {
-      if ($(".in").length == 0) {
+      if ($(".in").length === 0) {
         $("html, body").scrollTop(0);
       }
     });
@@ -688,7 +688,7 @@ $(function() {
         latitude: position.coords.latitude,
         longitude: position.coords.longitude
       }, function(data) {
-        if (data.result == true) {
+        if (data.result === true) {
           var area_name = data.candidate;
           var index = getAreaIndex(area_name);
           $("#select_area").val(index).change();
@@ -696,14 +696,14 @@ $(function() {
         } else {
           alert(data.reason);
         }
-      })
+      });
 
     }, function(error) {
       alert(getGpsErrorMessage(error));
     });
   });
 
-  if (getSelectedAreaName() == null) {
+  if (getSelectedAreaName() === null) {
     $("#accordion2").show();
     $("#collapseZero").addClass("in");
   }
@@ -714,14 +714,14 @@ $(function() {
   function getGpsErrorMessage(error) {
     switch (error.code) {
       case error.PERMISSION_DENIED:
-        return "User denied the request for Geolocation."
+        return "User denied the request for Geolocation.";
       case error.POSITION_UNAVAILABLE:
-        return "Location information is unavailable."
+        return "Location information is unavailable.";
       case error.TIMEOUT:
-        return "The request to get user location timed out."
+        return "The request to get user location timed out.";
       case error.UNKNOWN_ERROR:
       default:
-        return "An unknown error occurred."
+        return "An unknown error occurred.";
     }
   }
 
