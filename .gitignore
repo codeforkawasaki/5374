@@ -5,5 +5,16 @@
 bin/
 
 Thumbs.db
+
+# OS X
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Vim
+*.swp
 
