@@ -28,11 +28,7 @@ a.accordion-toggle-top{
 	margin-top: 40px;
 }
 
-#accordion3 #cfi{
-	border-top: 1px solid black;
-}
-
-#accordion3 #cfk{
+#accordion3 .cfx{
 	border-top: 1px solid black;
 }
 
@@ -111,7 +107,7 @@ a,a:hover{
 .note{
 	font-size: 10px;
 }
-#help{
+.help{
 	margin-left: 5px;
 }
 #select_area_title{
