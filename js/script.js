@@ -357,6 +357,9 @@ $(function() {
 
 
   function masterAreaList() {
+    // ブラウザの言語設定
+    var lang = navigator.language;
+
     // ★エリアのマスターリストを読み込みます
     // 大阪府仕様。大阪府下の区一覧です
     csvToArray("data/area_master.csv", function(tmp) {
