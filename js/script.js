@@ -611,7 +611,7 @@ $(function() {
     });
   }
 
-  function onChangeSelect(row_index) {　
+  function onChangeSelect(row_index) {
     if (row_index == -1) {
       $("#accordion").html("");
       setSelectedAreaName("");
@@ -629,7 +629,7 @@ $(function() {
   }
 
   // ★マスターの変更時
-  function onChangeSelectMaster(row_index) {　
+  function onChangeSelectMaster(row_index) {
     if (row_index == -1) {
       // 初期化
       $("#accordion").html("");
