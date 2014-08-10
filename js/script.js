@@ -137,7 +137,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     var day_list = [];
 
     // 定期回収の場合
-    if (this.regularFlg == 1) {
+    if (this.regularFlg === 1) {
 
       var today = new Date();
 
