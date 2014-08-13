@@ -63,13 +63,14 @@ var TrashModel = function(_lable, _cell, remarks) {
   this.mostRecent;
   this.dayList;
   this.mflag = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  var mm = null;
   if (_cell.search(/:/) >= 0) {
     var flag = _cell.split(":");
     this.dayCell = flag[0].split(" ");
-    var mm = flag[1].split(" ");
+    mm = flag[1].split(" ");
   } else {
     this.dayCell = _cell.split(" ");
-    var mm = ["4", "5", "6", "7", "8", "9", "10", "11", "12", "1", "2", "3"];
+    mm = ["4", "5", "6", "7", "8", "9", "10", "11", "12", "1", "2", "3"];
   }
   for (var m in mm) {
     this.mflag[mm[m] - 1] = 1;
@@ -79,7 +80,7 @@ var TrashModel = function(_lable, _cell, remarks) {
   this.regularFlg = 1;      // 定期回収フラグ（デフォルトはオン:1）
 
   var result_text = "";
-  var today = new Date();
+  //var today = new Date();
 
   for (var j in this.dayCell) {
     if (this.dayCell[j].length === 1) {
@@ -129,14 +130,14 @@ var TrashModel = function(_lable, _cell, remarks) {
   /**
   このゴミの年間のゴミの日を計算します。
   センターが休止期間がある場合は、その期間１週間ずらすという実装を行っております。
-*/
+  */
   this.calcMostRect = function(areaObj) {
     var day_mix = this.dayCell;
-    var result_text = "";
+    //var result_text = "";
     var day_list = [];
 
     // 定期回収の場合
-    if (this.regularFlg == 1) {
+    if (this.regularFlg === 1) {
 
       var today = new Date();
 
@@ -356,15 +357,18 @@ $(function() {
 
 
   function masterAreaList() {
+    // ブラウザの言語設定
+    var lang = navigator.language;
+
     // ★エリアのマスターリストを読み込みます
     // 大阪府仕様。大阪府下の区一覧です
     csvToArray("data/area_master.csv", function(tmp) {
-      var area_master_label = tmp.shift();    // ラベル
+      tmp.shift();    // ラベル
       for (var i in tmp) {
         var row           = tmp[i];
         var area_master   = new AreaMasterModel();
-        area_master.mastercode    = row[0];
-        area_master.name  = row[1];
+        area_master.mastercode = row[0];
+        area_master.name       = row[1];
         areaMasterModels.push(area_master);
       }
 
@@ -524,7 +528,6 @@ $(function() {
         }
           var target_tag = "";
           var furigana = "";
-          var target_tag = "";
           var targets = description.targets;
           for (var j in targets) {
             var target = targets[j];
@@ -611,7 +614,7 @@ $(function() {
     });
   }
 
-  function onChangeSelect(row_index) {　
+  function onChangeSelect(row_index) {
     if (row_index == -1) {
       $("#accordion").html("");
       setSelectedAreaName("");
@@ -629,7 +632,7 @@ $(function() {
   }
 
   // ★マスターの変更時
-  function onChangeSelectMaster(row_index) {　
+  function onChangeSelectMaster(row_index) {
     if (row_index == -1) {
       // 初期化
       $("#accordion").html("");
