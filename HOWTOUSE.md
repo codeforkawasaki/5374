@@ -11,18 +11,3 @@
 ## 提供されるゴミ情報について
 [川崎市が公開しているデータ | ごみ・リサイクル](http://www.city.kawasaki.jp/kurashi/category/24-1-0-0-0-0-0-0-0-0.html)を元にしています。
 
-## 開発チームとライセンスについて
-- 小野 祐貴(Yuki ONO)　Developer
-- 五十川 員申(Kazunobu IKAGAWA)　Developer
-- 高木 志宗(Yukimune TAKAGI)　Developer
-- 宮田 人司(Hotoshi MIYATA)　Designer
-
-本アプリ及びソースコードの著作権はCode for Kanazawaに帰属します。
-但し、このソースコードは[MPL](http://www.mozilla.org/MPL/2.0/)のもと配布されています。MPLに従えば、どなたでも利用、改変、及び再配布が可能です。
-
-## Contributers in Code for Kawasaki
-
-川崎市全域版 5374.jpは、2014/07/19のイベントで作成されたものです
-* [川崎市全域版 5374.jp(ごみなし.jp) 作成ワークショップ](http://connpass.com/event/7215/)
-* [Code for Kawasaki Facebookページ](https://www.facebook.com/codeforkawasaki)
-
