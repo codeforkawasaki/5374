@@ -591,7 +591,7 @@ $(function() {
             "</div>";
       }
     }
-    $("#accordion-style").html('<!-- ' + styleHTML + ' -->');
+    $("#accordion-style").text('<!-- ' + styleHTML + ' -->');
 
     var accordion_elm = $("#accordion");
     accordion_elm.html(accordionHTML);
