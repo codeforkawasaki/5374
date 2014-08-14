@@ -612,6 +612,11 @@ $(function() {
         $("html, body").scrollTop(0);
       }
     });
+
+    // リスト部分のクリックでアコーディオンを閉じる
+    $('.accordion-body.collapse').on('click', '.accordion-inner', function(){
+      $(this).parents('.accordion-group').first().find('.accordion-toggle').trigger('click');
+    });
   }
 
   function onChangeSelect(row_index) {
