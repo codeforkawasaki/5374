@@ -1,4 +1,5 @@
 "use strict";
+var ctx = null; //l20n
 
 /**
   エリア(ごみ処理の地域）を管理するクラスです。
@@ -307,6 +308,18 @@ $(function() {
   var areaMasterModels  = [];
 /*   var descriptions = []; */
 
+  function setupL20n() {
+    // ブラウザの言語設定
+    var lang = navigator.language;
+    ctx = L20n.getContext();
+    ctx.linkResource('./locales/' + lang + '/website.l20n');
+    ctx.requestLocales();
+    /*
+    ctx.localize(['about'], function(l10n) {
+      console.log(l10n.entities.about.value);
+    });
+    */
+  }
 
   // ローカルストレージ（エリア名）
   function getSelectedAreaName() {
@@ -357,8 +370,6 @@ $(function() {
 
 
   function masterAreaList() {
-    // ブラウザの言語設定
-    var lang = navigator.language;
 
     // ★エリアのマスターリストを読み込みます
     // 大阪府仕様。大阪府下の区一覧です
@@ -736,6 +747,7 @@ $(function() {
     }
   }
 
+  setupL20n();
   masterAreaList();
   //updateAreaList();
 
