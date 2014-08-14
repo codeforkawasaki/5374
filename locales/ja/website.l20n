@@ -1,0 +1,7 @@
+<save """
+  <input value="Save" type="text"> or
+  <a href="http://myevilwebsite.com"
+     onclick="alert('pwnd!')"
+     title="Back to the homepage">cancel</a>.
+""">
+
