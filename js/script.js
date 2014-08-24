@@ -372,42 +372,39 @@ $(function() {
 
 
   function masterAreaList() {
-    // 文言を翻訳
-    ctx.localize(['selectarea'], function(l10n) {
-      // ★エリアのマスターリストを読み込みます
-      // 大阪府仕様。大阪府下の区一覧です
-      csvToArray("data/area_master.csv", function(tmp) {
-        tmp.shift();    // ラベル
-        for (var i in tmp) {
-          var row           = tmp[i];
-          var area_master   = new AreaMasterModel();
-          area_master.mastercode = row[0];
-          area_master.name       = row[1];
-          areaMasterModels.push(area_master);
-        }
 
-        // ListメニューのHTMLを作成
-        var selected_master_name = getSelectedAreaMasterName();
-        var area_master_select_form = $("#select_area_master");
-        var select_master_html = "";
-        select_master_html += '<option value="-1">' + l10n.entities.selectarea.value + '</option>';
-        for (var row_index in areaMasterModels) {
-          var area_master_name = areaMasterModels[row_index].name;
-          var selected = (selected_master_name == area_master_name) ? 'selected="selected"' : "";
+    // ★エリアのマスターリストを読み込みます
+    // 大阪府仕様。大阪府下の区一覧です
+    csvToArray("data/area_master.csv", function(tmp) {
+      tmp.shift();    // ラベル
+      for (var i in tmp) {
+        var row           = tmp[i];
+        var area_master   = new AreaMasterModel();
+        area_master.mastercode = row[0];
+        area_master.name       = row[1];
+        areaMasterModels.push(area_master);
+      }
 
-          select_master_html += '<option value="' + row_index + '" ' + selected + " >" + area_master_name + "</option>";
-        }
+      // ListメニューのHTMLを作成
+      var selected_master_name = getSelectedAreaMasterName();
+      var area_master_select_form = $("#select_area_master");
+      var select_master_html = "";
+      select_master_html += '<option value="-1">地域を選択してください</option>';
+      for (var row_index in areaMasterModels) {
+        var area_master_name = areaMasterModels[row_index].name;
+        var selected = (selected_master_name == area_master_name) ? 'selected="selected"' : "";
 
-        //デバッグ用
-        if (typeof dump == "function") {
-          dump(areaMasterModels);
-        }
-        //HTMLへの適応
-        area_master_select_form.html(select_master_html);
-        area_master_select_form.change();
-      });
+        select_master_html += '<option value="' + row_index + '" ' + selected + " >" + area_master_name + "</option>";
+      }
+
+      //デバッグ用
+      if (typeof dump == "function") {
+        dump(areaMasterModels);
+      }
+      //HTMLへの適応
+      area_master_select_form.html(select_master_html);
+      area_master_select_form.change();
     });
-
   }
 
 
