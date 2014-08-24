@@ -311,15 +311,16 @@ $(function() {
   function setupL20n() {
     // ブラウザの言語設定
     var lang = navigator.language.toLowerCase();
-    lang = 'ja' === lang ? 'ja-jp' : lang;
     ctx = L20n.getContext();
     // デフォルト設定と可能言語
-    ctx.registerLocales('ja-jp', ['en-us']);
+    ctx.registerLocales('ja', ['en-us']);
     ctx.linkResource('./locales/' + lang + '/website.l20n');
     ctx.requestLocales();
+    /*
     ctx.localize(['about'], function(l10n) {
       console.log(l10n.entities.about.value);
     });
+    */
   }
 
   // ローカルストレージ（エリア名）
