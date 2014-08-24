@@ -310,10 +310,10 @@ $(function() {
 
   function setupL20n() {
     // ブラウザの言語設定
-    var lang = navigator.language.toLowerCase();
+    var lang = navigator.language;
     ctx = L20n.getContext();
     // デフォルト設定と可能言語
-    ctx.registerLocales('ja', ['en-us']);
+    ctx.registerLocales('ja', ['en-US']);
     ctx.linkResource('./locales/' + lang + '/website.l20n');
     ctx.requestLocales();
     /*
