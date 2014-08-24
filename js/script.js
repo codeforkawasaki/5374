@@ -311,9 +311,10 @@ $(function() {
   function setupL20n() {
     // ブラウザの言語設定
     var lang = navigator.language.toLowerCase();
-    lang = 'ja-jp' === lang ? 'ja' : lang;
+    lang = 'ja' === lang ? 'ja-jp' : lang;
     ctx = L20n.getContext();
     // デフォルト設定と可能言語
+    ctx.registerLocales('ja-jp', ['en-us']);
     ctx.linkResource('./locales/' + lang + '/website.l20n');
     ctx.requestLocales();
     ctx.localize(['about'], function(l10n) {
