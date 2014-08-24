@@ -14,6 +14,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="css/custom.css" rel="stylesheet" media="screen" />
+    <link rel="localization" href="browser.json">
     <style id="accordion-style" type="text/css"></style>
   </head>
   <body>
@@ -24,7 +25,7 @@
 
     <div class="accordion-group-top">
       <div class="accordion-heading">
-        <h1><a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_0">5374.jpについて</a></h1>
+        <h1><a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_0" data-l10n-id="about"></a></h1>
       </div>
       <div id="collapse3_0" class="accordion-body collapse">
         <div class="accordion-inner">
@@ -32,10 +33,10 @@
 ゴミの問題は、どの地域でも深刻になりつつあります。
 Code for Kanazawa(金沢)では、先ずは正しいゴミの捨て方に注目しました。
 目的と使い方は、とてもシンプルです。
-            <h2>目的</h2>
+            <h2 data-l10n-id="purpose"></h2>
 「いつ、どのゴミが収集されているのか？」
 例えばお引っ越しをされた場合や、新しく金沢市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
-            <h2>使い方</h2>
+            <h2 data-l10n-id="howtouse"></h2>
             <h3>色でゴミのジャンルを表示</h3>
             <p>一番近いゴミの日とジャンルを上から順に表示しています。</p>
             <h3>捨てる事が可能なゴミ</h3>
@@ -45,7 +46,7 @@ Code for Kanazawa(金沢)では、先ずは正しいゴミの捨て方に注目�
             <div id="caption">
               <h4>提供されるゴミ情報について</h4>
               <p>川崎市が公開している<u><a href="http://www.city.kawasaki.jp/kurashi/category/24-1-0-0-0-0-0-0-0-0.html" style="color:#000000;">ごみ・リサイクルのデータ</a></u>をオープン川崎/Code for Kawasaki(川崎)が独自に解析しアプリに実装しました。</p>
-              <h4>ライセンスについて</h4>
+              <h4 data-l10n-id="license"></h4>
               <p>本アプリの著作権はCode for Kanazawa(金沢)に帰属します。</p>
             </div>
             <div class="cfx">
@@ -104,5 +105,6 @@ Code for Kanazawa(金沢)では、先ずは正しいゴミの捨て方に注目�
   <script src="js/bookmark-bubble/example/example.min.js"></script>
   <script src="js/setting.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/l20n.min.js"></script>
   </body>
 </html>
