@@ -310,17 +310,21 @@ $(function() {
 
   function setupL20n() {
     // ブラウザの言語設定
-    var lang = navigator.language;
-    ctx = L20n.getContext();
-    // デフォルト設定と可能言語
-    ctx.registerLocales('ja', ['en-US']);
-    ctx.linkResource('./locales/' + lang + '/website.l20n');
-    ctx.requestLocales();
-    /*
-    ctx.localize(['about'], function(l10n) {
-      console.log(l10n.entities.about.value);
+    var lang = navigator.language.toLowerCase();
+    $.getJSON('./browser.json', function(settings){
+      ctx = L20n.getContext();
+      // デフォルト設定と可能言語
+      ctx.registerLocales(settings.default_locale, settings.locales);
+      ctx.linkResource(function(locale) {
+        return './locales/' + locale + '/website.l20n';
+      });
+      ctx.ready(function() {
+        // 実際のinit処理
+        masterAreaList();
+        //updateAreaList();
+      });
+      ctx.requestLocales(lang);
     });
-    */
   }
 
   // ローカルストレージ（エリア名）
@@ -389,21 +393,24 @@ $(function() {
       var selected_master_name = getSelectedAreaMasterName();
       var area_master_select_form = $("#select_area_master");
       var select_master_html = "";
-      select_master_html += '<option value="-1">地域を選択してください</option>';
-      for (var row_index in areaMasterModels) {
-        var area_master_name = areaMasterModels[row_index].name;
-        var selected = (selected_master_name == area_master_name) ? 'selected="selected"' : "";
 
-        select_master_html += '<option value="' + row_index + '" ' + selected + " >" + area_master_name + "</option>";
-      }
+      ctx.localize(['selectarea'], function(l10n) {
+        select_master_html += '<option value="-1">' + l10n.entities.selectarea.value + '</option>';
+        for (var row_index in areaMasterModels) {
+          var area_master_name = areaMasterModels[row_index].name;
+          var selected = (selected_master_name == area_master_name) ? 'selected="selected"' : "";
 
-      //デバッグ用
-      if (typeof dump == "function") {
-        dump(areaMasterModels);
-      }
-      //HTMLへの適応
-      area_master_select_form.html(select_master_html);
-      area_master_select_form.change();
+          select_master_html += '<option value="' + row_index + '" ' + selected + " >" + area_master_name + "</option>";
+        }
+
+        //デバッグ用
+        if (typeof dump == "function") {
+          dump(areaMasterModels);
+        }
+        //HTMLへの適応
+        area_master_select_form.html(select_master_html);
+        area_master_select_form.change();
+      });
     });
   }
 
@@ -750,7 +757,5 @@ $(function() {
   }
 
   setupL20n();
-  masterAreaList();
-  //updateAreaList();
 
 });
