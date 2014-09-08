@@ -4,5 +4,10 @@
 <license """ライセンスについて""">
 
 <!-- JS -->
+<selectward """区を選択してください""">
 <selectarea """地域を選択してください""">
+<today """今日""">
+<tomorrow """明日""">
+<dayaftertomorrow """明後日""">
+<dayslater """日後""">
 

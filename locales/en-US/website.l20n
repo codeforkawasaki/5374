@@ -4,5 +4,10 @@
 <license """License""">
 
 <!-- JS -->
+<selectward """Select a ward""">
 <selectarea """Select a area""">
+<today """Today""">
+<tomorrow """Tomorrow""">
+<dayaftertomorrow """Day after tomorrow""">
+<dayslater """Days later""">
 
