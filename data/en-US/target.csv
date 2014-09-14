@@ -8,7 +8,7 @@ Empty Bottles,Empty Bottles(bottles for drinking, spices),,E
 Mix Paper,Photo Albums(paper),"Made from paper:Mix Paper(The album with metal can be collected Mix Paper. But if the metal can be removed, the metal is collectedSmall Metal Articles)",P
 Ordinary Trash,Photo Albums(prastic),"The material is made from prastic,Ordinary Trash",P
 Ordinary Trash,Cooking Oil(Used),"Either absorb in cloth or use a solidifying agent before disposing.",C
-Oversized Trash,石（30cm未満）,Oversized Trash受付センターへ申込み（無料）。直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,い
+Oversized Trash,Stones(within 30cm),Oversized Trash受付センターへ申込み（無料）。直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,い
 Empty Bottles,一升びん,できるだけ購入店か資源集団回収へ,い
 Ordinary Trash,板ガラス（50cm未満）,最長辺が50cm以上ならOversized Trash,い
 Oversized Trash,板ガラス（50cm以上）,最長辺が50cm未満ならOrdinary Trash,い
