@@ -1,357 +1,357 @@
 type,name,notice,furigana
-普通ごみ,アルミ箔,,あ
-小物金属,アイロン,,あ
-小物金属,アイロン台（30cm未満）,最長辺が30cm以上なら粗大ごみ,あ
-粗大ごみ,アイロン台（30cm以上）,,あ
-空き缶・ペットボトル,空き缶（飲料缶、菓子缶、粉ミルク缶などの食品の缶や、スプレー缶など）,,あ
-空きびん,空きびん（飲料びん、調味料びん）,,あ
-Mix Paper,アルバム（フエルアルバム等）（紙製）,紙製ならMix Paper（金属部品がついていても、そのままMix Paperへ。外せれば、外したものは小物金属）,あ
-普通ごみ,アルバム（フエルアルバム等）（プラスチック製）,材質がプラスチック製の場合は、普通ごみ,あ
-普通ごみ,油（食用）,布・新聞紙などにしみこませるか、凝固剤で固める,あ
-粗大ごみ,石（30cm未満）,粗大ごみ受付センターへ申込み（無料）。直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,い
-空きびん,一升びん,できるだけ購入店か資源集団回収へ,い
-普通ごみ,板ガラス（50cm未満）,最長辺が50cm以上なら粗大ごみ,い
-粗大ごみ,板ガラス（50cm以上）,最長辺が50cm未満なら普通ごみ,い
-粗大ごみ,一斗缶（18リットル缶）,事業系のものは収集しません,い
-普通ごみ,衣類,できるだけ資源集団回収へ,い
-普通ごみ,植木鉢（陶器、素焼き）（５０ｃｍ未満）,陶器、素焼きは厚紙に包み「陶器キケン」などと表示。最長辺が50cm以上なら粗大ごみ。,う
-粗大ごみ,植木鉢（陶器、素焼き）（５０ｃｍ以上）,最長辺が50cm未満なら普通ごみ,う
-普通ごみ,植木鉢（プラスチック製）（５０ｃｍ未満）,最長辺が50cm以上なら粗大ごみ,う
-粗大ごみ,植木鉢（プラスチック製）（５０ｃｍ以上）,最長辺が50cm未満なら普通ごみ,う
-粗大ごみ,ウォシュレット（温水便座）,業者が交換した場合、市では収集しません。業者に引取り依頼をしてください。,う
-粗大ごみ,ウッドカーペット,一番長いところを2m未満にしてください。,う
-普通ごみ,ウッドデッキパネル（50ｃｍ未満）,普通ごみで出す場合、あらかじめ家庭から出るものであることを生活環境事業所に連絡してください。,う
-粗大ごみ,ウッドデッキパネル（50ｃｍ以上）,最長辺が50cm未満なら普通ごみ,う
+Ordinary Trash,aluminum foil,,A
+Small Metal Articles,Irons,,I
+Small Metal Articles,Ironing board(within 30cm),"The case that the longest side is over 30cm is Oversized Trash",I
+Oversized Trash,Ironing board(over 30cm),,I
+"Empty Cans,PET Bottles",Empty Cans(Cans for drinking, sweets, dried milk,etc. and spray cans),,E
+Empty Bottles,Empty Bottles(bottles for drinking, spices),,E
+Mix Paper,Photo Albums(paper),"Made from paper:Mix Paper(The album with metal can be collected Mix Paper. But if the metal can be removed, the metal is collectedSmall Metal Articles)",P
+Ordinary Trash,Photo Albums(prastic),"The material is made from prastic,Ordinary Trash",P
+Ordinary Trash,Cooking Oil(Used),"Either absorb in cloth or use a solidifying agent before disposing.",C
+Oversized Trash,Stones(within 30cm),Oversized Trash受付センターへ申込み（無料）。直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,い
+Empty Bottles,一升びん,できるだけ購入店か資源集団回収へ,い
+Ordinary Trash,板ガラス（50cm未満）,最長辺が50cm以上ならOversized Trash,い
+Oversized Trash,板ガラス（50cm以上）,最長辺が50cm未満ならOrdinary Trash,い
+Oversized Trash,一斗缶（18リットル缶）,事業系のものは収集しません,い
+Ordinary Trash,衣類,できるだけ資源集団回収へ,い
+Ordinary Trash,植木鉢（陶器、素焼き）（５０ｃｍ未満）,陶器、素焼きは厚紙に包み「陶器キケン」などと表示。最長辺が50cm以上ならOversized Trash。,う
+Oversized Trash,植木鉢（陶器、素焼き）（５０ｃｍ以上）,最長辺が50cm未満ならOrdinary Trash,う
+Ordinary Trash,植木鉢（プラスチック製）（５０ｃｍ未満）,最長辺が50cm以上ならOversized Trash,う
+Oversized Trash,植木鉢（プラスチック製）（５０ｃｍ以上）,最長辺が50cm未満ならOrdinary Trash,う
+Oversized Trash,ウォシュレット（温水便座）,業者が交換した場合、Wastes not collected by the City。業者に引取り依頼をしてください。,う
+Oversized Trash,ウッドカーペット,一番長いところを2m未満にしてください。,う
+Ordinary Trash,ウッドデッキパネル（50ｃｍ未満）,Ordinary Trashで出す場合、あらかじめ家庭から出るものであることを生活環境事業所に連絡してください。,う
+Oversized Trash,ウッドデッキパネル（50ｃｍ以上）,最長辺が50cm未満ならOrdinary Trash,う
 Mix Paper,栄養ドリンクが入っていた箱,,え
-普通ごみ,MD（ディスク）,,え
-プラスチック製容器包装,お菓子などの袋（プラスチック製）,,お
-小物金属,おたま,,お
-小物金属,おろしがね,,お
-普通ごみ,落ち葉・剪定枝・刈り草・板切れ（50ｃｍ未満）,枝は太さ10cm程度、長さ50cm未満に切って束ねる。最長辺が50cm以上なら乾燥後粗大ごみ。,お
-粗大ごみ,落ち葉・剪定枝・刈り草・板切れ（50ｃｍ以上）,最長辺が50cm未満なら普通ごみ,お
-普通ごみ,おもちゃ（プラスチック製）（50ｃｍ未満）,最長辺が50cm以上なら粗大ごみ,お
-粗大ごみ,おもちゃ（プラスチック製）（50ｃｍ以上）,最長辺が50cm未満なら普通ごみ,お
-小物金属,おもちゃ（金属・機械）（30cm未満）,最長辺が30cm以上なら粗大ごみ,お
-粗大ごみ,おもちゃ（金属・機械）（30cm以上）,最長辺が30cm未満なら小物金属,お
-普通ごみ,温度計,厚紙に包み「温度計キケン」と表示する,お
-普通ごみ,カーテン,,か
-普通ごみ,カーペット（50ｃｍ未満）,最長辺が50cm以上なら粗大ごみ,か
-粗大ごみ,カーペット（50ｃｍ以上）,最長辺が50cm未満なら普通ごみ,か
-小物金属,懐中電灯,乾電池を取りはずす（乾電池は資源物へ）,か
-普通ごみ,カイロ（使い捨て）,使い捨て以外のものは小物金属,か
-普通ごみ,鏡,厚紙に包んで「キケン」と表示,か
-小物金属,角ハンガー（金属製）,,か
-小物金属,傘,,か
-小物金属,加湿器（30cm未満）,最長辺が30cm以上なら粗大ごみ,か
-粗大ごみ,加湿器（30cm以上）,最長辺が30cm未満なら小物金属,か
-空き缶・ペットボトル,菓子などの缶,,か
+Ordinary Trash,MD（ディスク）,,え
+Plastic Containers and Packaging,お菓子などの袋（プラスチック製）,,お
+Small Metal Articles,おたま,,お
+Small Metal Articles,おろしがね,,お
+Ordinary Trash,落ち葉・剪定枝・刈り草・板切れ（50ｃｍ未満）,枝は太さ10cm程度、長さ50cm未満に切って束ねる。最長辺が50cm以上なら乾燥後Oversized Trash。,お
+Oversized Trash,落ち葉・剪定枝・刈り草・板切れ（50ｃｍ以上）,最長辺が50cm未満ならOrdinary Trash,お
+Ordinary Trash,おもちゃ（プラスチック製）（50ｃｍ未満）,最長辺が50cm以上ならOversized Trash,お
+Oversized Trash,おもちゃ（プラスチック製）（50ｃｍ以上）,最長辺が50cm未満ならOrdinary Trash,お
+Small Metal Articles,おもちゃ（金属・機械）（30cm未満）,最長辺が30cm以上ならOversized Trash,お
+Oversized Trash,おもちゃ（金属・機械）（30cm以上）,最長辺が30cm未満ならSmall Metal Articles,お
+Ordinary Trash,温度計,厚紙に包み「温度計キケン」と表示する,お
+Ordinary Trash,カーテン,,か
+Ordinary Trash,カーペット（50ｃｍ未満）,最長辺が50cm以上ならOversized Trash,か
+Oversized Trash,カーペット（50ｃｍ以上）,最長辺が50cm未満ならOrdinary Trash,か
+Small Metal Articles,懐中電灯,乾電池を取りはずす（乾電池は資源物へ）,か
+Ordinary Trash,カイロ（使い捨て）,使い捨て以外のものはSmall Metal Articles,か
+Ordinary Trash,鏡,厚紙に包んで「キケン」と表示,か
+Small Metal Articles,角ハンガー（金属製）,,か
+Small Metal Articles,傘,,か
+Small Metal Articles,加湿器（30cm未満）,最長辺が30cm以上ならOversized Trash,か
+Oversized Trash,加湿器（30cm以上）,最長辺が30cm未満ならSmall Metal Articles,か
+Empty Cans・PET Bottles,菓子などの缶,,か
 Mix Paper,菓子などの箱,,か
-空き缶・ペットボトル,カセット式ガスボンベ,使い切って、中身を空にしてから出す,か
-普通ごみ,カセットテープ,,か
-小物金属,カッター・剃刀の刃,刃を厚紙で包み「カッターキケン」などと表示する,か
-普通ごみ,カットウィッグ（美容師練習用）,普通ごみで出す場合、あらかじめ家庭から出るものであることを生活環境事業所に連絡してください。,か
-普通ごみ,カットウィッグ（ファッション用）,,か
-プラスチック製容器包装,カップ麺の容器（プラスチック製）,軽く洗ってから出す,か
-Mix Paper,カップ麺の容器（紙製）,ふき取ったり水で洗っても汚れが取れない場合は普通ごみ,か
-小物金属,金づち,,か
-普通ごみ,かばん（布製・皮製・ビニール製）（50cm未満）,最長辺が50cm以上なら粗大ごみ,か
-粗大ごみ,かばん（布製・皮製・ビニール製）（50cm以上）,最長辺が50cm未満なら普通ごみ,か
-普通ごみ,紙おむつ,汚物を取り除いて匂いが漏れないようポリ袋に入れる,か
-普通ごみ,紙くず（ティッシュペーパー等）,,か
+Empty Cans・PET Bottles,カセット式ガスボンベ,使い切って、中身を空にしてから出す,か
+Ordinary Trash,カセットテープ,,か
+Small Metal Articles,カッター・剃刀の刃,刃を厚紙で包み「カッターキケン」などと表示する,か
+Ordinary Trash,カットウィッグ（美容師練習用）,Ordinary Trashで出す場合、あらかじめ家庭から出るものであることを生活環境事業所に連絡してください。,か
+Ordinary Trash,カットウィッグ（ファッション用）,,か
+Plastic Containers and Packaging,カップ麺の容器（プラスチック製）,軽く洗ってから出す,か
+Mix Paper,カップ麺の容器（紙製）,ふき取ったり水で洗っても汚れが取れない場合はOrdinary Trash,か
+Small Metal Articles,金づち,,か
+Ordinary Trash,かばん（布製・皮製・ビニール製）（50cm未満）,最長辺が50cm以上ならOversized Trash,か
+Oversized Trash,かばん（布製・皮製・ビニール製）（50cm以上）,最長辺が50cm未満ならOrdinary Trash,か
+Ordinary Trash,紙おむつ,汚物を取り除いて匂いが漏れないようポリ袋に入れる,か
+Ordinary Trash,紙くず（ティッシュペーパー等）,,か
 Mix Paper,紙製容器包装（紙マーク）,,か
 Mix Paper,紙類（ボール紙、菓子箱、封筒等）,,か
-普通ごみ,紙類（汚れた紙、においの強い紙）,,か
-普通ごみ,ガラス製品（50ｃｍ未満）,厚紙に包み「ガラスキケン」と表示する。最長辺が50cm以上なら粗大ごみ,か
-粗大ごみ,ガラス製品（50ｃｍ以上）,厚紙に包み「ガラスキケン」と表示する。最長辺が50cm未満なら普通ごみ,か
-粗大ごみ,カーテンレール,,か
-普通ごみ,革類,できるだけ資源集団回収へ,か
+Ordinary Trash,紙類（汚れた紙、においの強い紙）,,か
+Ordinary Trash,ガラス製品（50ｃｍ未満）,厚紙に包み「ガラスキケン」と表示する。最長辺が50cm以上ならOversized Trash,か
+Oversized Trash,ガラス製品（50ｃｍ以上）,厚紙に包み「ガラスキケン」と表示する。最長辺が50cm未満ならOrdinary Trash,か
+Oversized Trash,カーテンレール,,か
+Ordinary Trash,革類,できるだけ資源集団回収へ,か
 使用済み乾電池,乾電池（積層型・筒型アルカリ・筒型マンガン・リチウムコイン乾電池（型式記号CR及びBR））,透明・半透明の袋に一緒に入れて出す。マンション等で管理組合のルールがある場合はそちらに従う,か
-空き缶・ペットボトル,缶詰,中身と缶を分けてそれぞれ出してください,か
-プラスチック製容器包装,気泡緩衝材（プチプチ）,,き
-小物金属,ギタースタンド（30cm未満）,最長辺が30cm以上なら粗大ごみ,き
-粗大ごみ,ギタースタンド（30cm以上）,最長辺が30cm未満なら小物金属,き
-粗大ごみ,鏡台,,き
-粗大ごみ,金庫,耐火性の金庫は市では処理しません。販売店等に相談してください,き
-小物金属,空気清浄機（30cm未満）,最長辺が30cm以上なら粗大ごみ,く
-粗大ごみ,空気清浄機（30cm以上）,最長辺が30cm未満なら小物金属,く
-小物金属,くぎ（ネジなどを含む）,透明袋で出す,く
-小物金属,くずいれ（金属製）,,く
-空きびん,薬のびん（飲み薬）,,く
-プラスチック製容器包装,薬の容器（プラスチック製）,,く
-プラスチック製容器包装,薬の包装材（押し出し式などのもの）,アルミがついていてもそのまま出してください,く
-小物金属,クッキングヒーター（30cm未満）,最長辺が30cm以上なら粗大ごみ,く
-粗大ごみ,クッキングヒーター（30cm以上）,最長辺が30cm未満なら粗大ごみ,く
-普通ごみ,靴,,く
-小物金属,くん製剤（バルサン等・使用済み）,外装がはずせる場合は、金属部分を小物金属、外装は普通ごみ,く
-普通ごみ,蛍光管,廃蛍光管リサイクルは生活環境事業所に直接持ち込み。持ち込みができない場合、普通ごみ（厚紙等に包み「キケン」と表示）,け
-小物金属,ケージ（動物）（30cm未満）,最長辺が30cm以上なら粗大ごみ,け
-粗大ごみ,ケージ（動物）（30cm以上）,最長辺が30cm未満なら小物金属,け
-小物金属,ケーブル,束ねて出す,け
-小物金属,ゲーム機やその周辺機器（30cm未満）,最長辺が30cm以上なら粗大ごみ,け
-粗大ごみ,ゲーム機やその周辺機器（30cm以上）,最長辺が30cm未満なら小物金属,け
-普通ごみ,化粧品の容器（びん),厚紙に包み「びんキケン」などと表示する,け
-小物金属,血圧計,,け
-小物金属,健康器具（30cm未満）,最長辺が30cm以上なら粗大ごみ,け
-粗大ごみ,健康器具（30cm以上）,最長辺が30cm未満なら小物金属,け
-普通ごみ,コップ（ガラス),厚紙に包み「コップキケン」などと表示する,こ
-小物金属,コード類,束ねて出す,こ
-小物金属,コーヒーメーカー（30cm未満）,最長辺が30cm以上なら粗大ごみ,こ
-粗大ごみ,コーヒーメーカー（30cm以上）,最長辺が30cm未満なら小物金属,こ
-粗大ごみ,こたつ布団,折りたたみ、ひもで縛る,こ
-普通ごみ,ごみ箱（プラスチック製）（50ｃｍ未満）,最長辺が30cm以上なら粗大ごみ,こ
-粗大ごみ,ごみ箱（プラスチック製）（50ｃｍ以上）,最長辺が30cm未満なら普通ごみ,こ
-小物金属,ごみ箱（金属）（30cm未満）,最長辺が30cm以上なら粗大ごみ,こ
-粗大ごみ,ごみ箱（金属）（30cm以上）,最長辺が30cm未満なら小物金属,こ
-粗大ごみ,ゴルフバッグ,ゴルフクラブを入れてセットにできます,こ
-粗大ごみ,ゴルフクラブ,ゴルフバッグに入れてセットにできます,こ
-粗大ごみ,コンクリートブロック,粗大ごみ受付センターへ申込み（無料）。直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,こ
-普通ごみ,サイリュームケミカルライト,,さ
-粗大ごみ,座椅子,5個まで1組。ひもで縛る（回転式はひとつずつに手数料がかかります）,さ
-小物金属,魚焼き,,さ
-普通ごみ,座布団(最長辺が50cm未満),最長辺が50cm以上なら粗大ごみ,さ
-粗大ごみ,座布団(最長辺が50cm以上),最長辺が50cm未満なら普通ごみ,さ
-普通ごみ,皿,厚紙に包み「皿キケン」などと表示する,さ
-普通ごみ,CD（ディスク),,し
-粗大ごみ,敷石(直径が30cm未満),受付センターへ申込み（無料）。直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,し
-小物金属,磁石,,し
-粗大ごみ,自転車,,し
-小物金属,ジャッキ(最長辺が30cm未満),最長辺が30cm以上なら粗大ごみ,し
-粗大ごみ,ジャッキ(最長辺が30cm以上),最長辺が30cm未満なら小物金属,し
-粗大ごみ,食器洗い機（ビルトインタイプ）,業者が交換した場合、市では収集しません。業者に引取り依頼をしてください。,し
+Empty Cans・PET Bottles,缶詰,中身と缶を分けてそれぞれ出してください,か
+Plastic Containers and Packaging,気泡緩衝材（プチプチ）,,き
+Small Metal Articles,ギタースタンド（30cm未満）,最長辺が30cm以上ならOversized Trash,き
+Oversized Trash,ギタースタンド（30cm以上）,最長辺が30cm未満ならSmall Metal Articles,き
+Oversized Trash,鏡台,,き
+Oversized Trash,金庫,耐火性の金庫は市では処理しません。販売店等に相談してください,き
+Small Metal Articles,空気清浄機（30cm未満）,最長辺が30cm以上ならOversized Trash,く
+Oversized Trash,空気清浄機（30cm以上）,最長辺が30cm未満ならSmall Metal Articles,く
+Small Metal Articles,くぎ（ネジなどを含む）,透明袋で出す,く
+Small Metal Articles,くずいれ（金属製）,,く
+Empty Bottles,薬のびん（飲み薬）,,く
+Plastic Containers and Packaging,薬の容器（プラスチック製）,,く
+Plastic Containers and Packaging,薬の包装材（押し出し式などのもの）,アルミがついていてもそのまま出してください,く
+Small Metal Articles,クッキングヒーター（30cm未満）,最長辺が30cm以上ならOversized Trash,く
+Oversized Trash,クッキングヒーター（30cm以上）,最長辺が30cm未満ならOversized Trash,く
+Ordinary Trash,靴,,く
+Small Metal Articles,くん製剤（バルサン等・使用済み）,外装がはずせる場合は、金属部分をSmall Metal Articles、外装はOrdinary Trash,く
+Ordinary Trash,蛍光管,廃蛍光管リサイクルは生活環境事業所に直接持ち込み。持ち込みができない場合、Ordinary Trash（厚紙等に包み「キケン」と表示）,け
+Small Metal Articles,ケージ（動物）（30cm未満）,最長辺が30cm以上ならOversized Trash,け
+Oversized Trash,ケージ（動物）（30cm以上）,最長辺が30cm未満ならSmall Metal Articles,け
+Small Metal Articles,ケーブル,束ねて出す,け
+Small Metal Articles,ゲーム機やその周辺機器（30cm未満）,最長辺が30cm以上ならOversized Trash,け
+Oversized Trash,ゲーム機やその周辺機器（30cm以上）,最長辺が30cm未満ならSmall Metal Articles,け
+Ordinary Trash,化粧品の容器（びん),厚紙に包み「びんキケン」などと表示する,け
+Small Metal Articles,血圧計,,け
+Small Metal Articles,健康器具（30cm未満）,最長辺が30cm以上ならOversized Trash,け
+Oversized Trash,健康器具（30cm以上）,最長辺が30cm未満ならSmall Metal Articles,け
+Ordinary Trash,コップ（ガラス),厚紙に包み「コップキケン」などと表示する,こ
+Small Metal Articles,コード類,束ねて出す,こ
+Small Metal Articles,コーヒーメーカー（30cm未満）,最長辺が30cm以上ならOversized Trash,こ
+Oversized Trash,コーヒーメーカー（30cm以上）,最長辺が30cm未満ならSmall Metal Articles,こ
+Oversized Trash,こたつ布団,折りたたみ、ひもで縛る,こ
+Ordinary Trash,ごみ箱（プラスチック製）（50ｃｍ未満）,最長辺が30cm以上ならOversized Trash,こ
+Oversized Trash,ごみ箱（プラスチック製）（50ｃｍ以上）,最長辺が30cm未満ならOrdinary Trash,こ
+Small Metal Articles,ごみ箱（金属）（30cm未満）,最長辺が30cm以上ならOversized Trash,こ
+Oversized Trash,ごみ箱（金属）（30cm以上）,最長辺が30cm未満ならSmall Metal Articles,こ
+Oversized Trash,ゴルフバッグ,ゴルフクラブを入れてセットにできます,こ
+Oversized Trash,ゴルフクラブ,ゴルフバッグに入れてセットにできます,こ
+Oversized Trash,コンクリートブロック,Oversized Trash受付センターへ申込み（無料）。直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,こ
+Ordinary Trash,サイリュームケミカルライト,,さ
+Oversized Trash,座椅子,5個まで1組。ひもで縛る（回転式はひとつずつに手数料がかかります）,さ
+Small Metal Articles,魚焼き,,さ
+Ordinary Trash,座布団(最長辺が50cm未満),最長辺が50cm以上ならOversized Trash,さ
+Oversized Trash,座布団(最長辺が50cm以上),最長辺が50cm未満ならOrdinary Trash,さ
+Ordinary Trash,皿,厚紙に包み「皿キケン」などと表示する,さ
+Ordinary Trash,CD（ディスク),,し
+Oversized Trash,敷石(直径が30cm未満),受付センターへ申込み（無料）。直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,し
+Small Metal Articles,磁石,,し
+Oversized Trash,自転車,,し
+Small Metal Articles,ジャッキ(最長辺が30cm未満),最長辺が30cm以上ならOversized Trash,し
+Oversized Trash,ジャッキ(最長辺が30cm以上),最長辺が30cm未満ならSmall Metal Articles,し
+Oversized Trash,食器洗い機（ビルトインタイプ）,業者が交換した場合、Wastes not collected by the City。業者に引取り依頼をしてください。,し
 Mix Paper,写真,,し
-プラスチック製容器包装,シャンプー容器（プラスチック製）,プラ容器は中身を使い切って、軽く洗ってから出す,し
+Plastic Containers and Packaging,シャンプー容器（プラスチック製）,プラ容器は中身を使い切って、軽く洗ってから出す,し
 Mix Paper,シュレッダー紙,,し
-普通ごみ,じゅうたん(50cm未満),50cm以上なら粗大ごみ,し
-粗大ごみ,じゅうたん(50cm以上),50cm未満なら普通ごみ,し
-普通ごみ,浄水器のカートリッジ（金属を含まない場合）,,し
-小物金属,浄水器のカートリッジ（金属を含む場合）（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,し
-粗大ごみ,浄水器のカートリッジ（金属を含む場合）（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,し
-小物金属,照明器具（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ（蛍光管、電球は普通ごみ）,し
-粗大ごみ,照明器具（最長辺が30cm以上）,最長辺が30cm未満なら小物金属（蛍光管、電球は普通ごみ）,し
-空き缶・ペットボトル,食用油の缶,使い切って、さっと洗ってから出す,し
-空きびん,食用油のびん,使い切って、さっと洗ってから出す,し
-普通ごみ,水槽（金属を含まない）（最長辺が50cm未満）,最長辺が50cm以上なら粗大ごみ,す
-粗大ごみ,水槽（金属を含まない）（最長辺が50cm以上）,最長辺が50cm未満なら普通ごみ,す
-小物金属,水槽（金属を含む）（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,す
-粗大ごみ,水槽（金属を含む）（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,す
-小物金属,炊飯器（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,す
-粗大ごみ,炊飯器（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,す
-小物金属,スーツケース（柄等に金属を使用）（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,す
-粗大ごみ,スーツケース（柄等に金属を使用）（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,す
-普通ごみ,スーツケース（金属の使用なし）（最長辺が50cm未満）,最長辺が50cm以上なら粗大ごみ,す
-粗大ごみ,スーツケース（金属の使用なし）（最長辺が50cm以上）,最長辺が50cm未満なら普通ごみ,す
-普通ごみ,スキー靴、スケート靴（金属を含まない）（最長辺が50cm未満）,最長辺が50cm以上なら粗大ごみ,す
-粗大ごみ,スキー靴、スケート靴（金属を含まない）（最長辺が50cm以上）,最長辺が50cm未満なら普通ごみ,す
-小物金属,スキー靴、スケート靴（金属を含む）（最長辺が30cm未満),最長辺が30cm以上なら粗大ごみ,す
-粗大ごみ,スキー靴、スケート靴（金属を含む）（最長辺が30cm以上),最長辺が30cm未満なら小物金属,す
-小物金属,スチームアイロン（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,す
-粗大ごみ,スチームアイロン（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,す
-小物金属,ステレオ（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,す
-粗大ごみ,ステレオ（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,す
-小物金属,ステンレス魔法瓶（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,す
-粗大ごみ,ステンレス魔法瓶（最長辺が30cm以上）,最長辺が30cm未満なら普通ごみ,す
-普通ごみ,ストロー,,す
-普通ごみ,スノーボードの靴（金属を含まない）（最長辺が50cm未満）,最長辺が50cm以上なら粗大ごみ,す
-粗大ごみ,スノーボードの靴（金属を含まない）（最長辺が50cm以上）,最長辺が50cm未満なら普通ごみ,す
-小物金属,スノーボードの靴（金属を含む）（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,す
-粗大ごみ,スノーボードの靴（金属を含む）（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,す
-小物金属,スピーカー（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,す
-粗大ごみ,スピーカー（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,す
-普通ごみ,スプーン（プラスチック製）,,す
-小物金属,スプーン（金属製）,,す
-空き缶・ペットボトル,スプレー缶,使いきって、中身を空にしてから出す,す
-プラスチック製容器包装,スプレー缶のキャップ,,す
-普通ごみ,生理用品,,せ
-プラスチック製容器包装,生理用品の外袋,,せ
-普通ごみ,洗剤の容器（紙製）,,せ
-プラスチック製容器包装,洗剤の容器（プラスチック製）,プラ容器は中身を使い切って、軽く洗ってから出す,せ
-小物金属,喘息用吸入器（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,せ
-粗大ごみ,喘息用吸入器（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,せ
-小物金属,扇風機（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,せ
-粗大ごみ,扇風機（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,せ
-普通ごみ,洗濯機の「お湯取りホース」,プラスチック製のものは、50cm未満にまとめて普通ごみ,せ
-普通ごみ,洗面器,,せ
-小物金属,掃除機（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ。ホースなどを含め、一番小さくまとめた状態で測る,そ
-粗大ごみ,掃除機（最長辺が30cm以上）,最長辺が30cm未満なら小物金属。ホースなどを含め、一番小さくまとめた状態で測る,そ
-粗大ごみ,ソファ,,そ
-小物金属,体重計（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,た
-粗大ごみ,体重計（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,た
-普通ごみ,ダイビング用の機材、スーツ（金属を含まない）（最長辺が50cm未満）,最長辺が50cm以上なら粗大ごみ,た
-粗大ごみ,ダイビング用の機材、スーツ（金属を含まない）（最長辺が50cm以上）,最長辺が50cm未満なら普通ごみ,た
-小物金属,ダイビング用の機材、スーツ（金属を含む）（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,た
-粗大ごみ,ダイビング用の機材、スーツ（金属を含む）（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,た
-普通ごみ,タオルケット,,た
-普通ごみ,タッパー類,,た
+Ordinary Trash,じゅうたん(50cm未満),50cm以上ならOversized Trash,し
+Oversized Trash,じゅうたん(50cm以上),50cm未満ならOrdinary Trash,し
+Ordinary Trash,浄水器のカートリッジ（金属を含まない場合）,,し
+Small Metal Articles,浄水器のカートリッジ（金属を含む場合）（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,し
+Oversized Trash,浄水器のカートリッジ（金属を含む場合）（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,し
+Small Metal Articles,照明器具（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash（蛍光管、電球はOrdinary Trash）,し
+Oversized Trash,照明器具（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles（蛍光管、電球はOrdinary Trash）,し
+Empty Cans・PET Bottles,食用油の缶,使い切って、さっと洗ってから出す,し
+Empty Bottles,食用油のびん,使い切って、さっと洗ってから出す,し
+Ordinary Trash,水槽（金属を含まない）（最長辺が50cm未満）,最長辺が50cm以上ならOversized Trash,す
+Oversized Trash,水槽（金属を含まない）（最長辺が50cm以上）,最長辺が50cm未満ならOrdinary Trash,す
+Small Metal Articles,水槽（金属を含む）（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,す
+Oversized Trash,水槽（金属を含む）（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,す
+Small Metal Articles,炊飯器（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,す
+Oversized Trash,炊飯器（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,す
+Small Metal Articles,スーツケース（柄等に金属を使用）（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,す
+Oversized Trash,スーツケース（柄等に金属を使用）（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,す
+Ordinary Trash,スーツケース（金属の使用なし）（最長辺が50cm未満）,最長辺が50cm以上ならOversized Trash,す
+Oversized Trash,スーツケース（金属の使用なし）（最長辺が50cm以上）,最長辺が50cm未満ならOrdinary Trash,す
+Ordinary Trash,スキー靴、スケート靴（金属を含まない）（最長辺が50cm未満）,最長辺が50cm以上ならOversized Trash,す
+Oversized Trash,スキー靴、スケート靴（金属を含まない）（最長辺が50cm以上）,最長辺が50cm未満ならOrdinary Trash,す
+Small Metal Articles,スキー靴、スケート靴（金属を含む）（最長辺が30cm未満),最長辺が30cm以上ならOversized Trash,す
+Oversized Trash,スキー靴、スケート靴（金属を含む）（最長辺が30cm以上),最長辺が30cm未満ならSmall Metal Articles,す
+Small Metal Articles,スチームアイロン（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,す
+Oversized Trash,スチームアイロン（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,す
+Small Metal Articles,ステレオ（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,す
+Oversized Trash,ステレオ（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,す
+Small Metal Articles,ステンレス魔法瓶（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,す
+Oversized Trash,ステンレス魔法瓶（最長辺が30cm以上）,最長辺が30cm未満ならOrdinary Trash,す
+Ordinary Trash,ストロー,,す
+Ordinary Trash,スノーボードの靴（金属を含まない）（最長辺が50cm未満）,最長辺が50cm以上ならOversized Trash,す
+Oversized Trash,スノーボードの靴（金属を含まない）（最長辺が50cm以上）,最長辺が50cm未満ならOrdinary Trash,す
+Small Metal Articles,スノーボードの靴（金属を含む）（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,す
+Oversized Trash,スノーボードの靴（金属を含む）（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,す
+Small Metal Articles,スピーカー（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,す
+Oversized Trash,スピーカー（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,す
+Ordinary Trash,スプーン（プラスチック製）,,す
+Small Metal Articles,スプーン（金属製）,,す
+Empty Cans・PET Bottles,スプレー缶,使いきって、中身を空にしてから出す,す
+Plastic Containers and Packaging,スプレー缶のキャップ,,す
+Ordinary Trash,生理用品,,せ
+Plastic Containers and Packaging,生理用品の外袋,,せ
+Ordinary Trash,洗剤の容器（紙製）,,せ
+Plastic Containers and Packaging,洗剤の容器（プラスチック製）,プラ容器は中身を使い切って、軽く洗ってから出す,せ
+Small Metal Articles,喘息用吸入器（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,せ
+Oversized Trash,喘息用吸入器（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,せ
+Small Metal Articles,扇風機（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,せ
+Oversized Trash,扇風機（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,せ
+Ordinary Trash,洗濯機の「お湯取りホース」,プラスチック製のものは、50cm未満にまとめてOrdinary Trash,せ
+Ordinary Trash,洗面器,,せ
+Small Metal Articles,掃除機（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash。ホースなどを含め、一番小さくまとめた状態で測る,そ
+Oversized Trash,掃除機（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles。ホースなどを含め、一番小さくまとめた状態で測る,そ
+Oversized Trash,ソファ,,そ
+Small Metal Articles,体重計（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,た
+Oversized Trash,体重計（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,た
+Ordinary Trash,ダイビング用の機材、スーツ（金属を含まない）（最長辺が50cm未満）,最長辺が50cm以上ならOversized Trash,た
+Oversized Trash,ダイビング用の機材、スーツ（金属を含まない）（最長辺が50cm以上）,最長辺が50cm未満ならOrdinary Trash,た
+Small Metal Articles,ダイビング用の機材、スーツ（金属を含む）（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,た
+Oversized Trash,ダイビング用の機材、スーツ（金属を含む）（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,た
+Ordinary Trash,タオルケット,,た
+Ordinary Trash,タッパー類,,た
 Mix Paper,卵パック（紙製）,,た
-プラスチック製容器包装,卵パック（プラスチック製）,,た
-普通ごみ,チャイルドシート,金属を含まない：最長辺が50cm未満なら普通ごみ、50cm以上なら粗大ごみ,ち
-小物金属,チャイルドシート,,ち
-粗大ごみ,チャイルドシート,金属を含む：最長辺が30cm未満なら小物金属、30cm以上なら粗大ごみ,ち
-普通ごみ,茶碗,厚紙に包んで「キケン」と表示,ち
-プラスチック製容器包装,チューブ類（マヨネーズ等）,使い切ってから出してください,ち
+Plastic Containers and Packaging,卵パック（プラスチック製）,,た
+Ordinary Trash,チャイルドシート,金属を含まない：最長辺が50cm未満ならOrdinary Trash、50cm以上ならOversized Trash,ち
+Small Metal Articles,チャイルドシート,,ち
+Oversized Trash,チャイルドシート,金属を含む：最長辺が30cm未満ならSmall Metal Articles、30cm以上ならOversized Trash,ち
+Ordinary Trash,茶碗,厚紙に包んで「キケン」と表示,ち
+Plastic Containers and Packaging,チューブ類（マヨネーズ等）,使い切ってから出してください,ち
 Mix Paper,チラシ（新聞紙の折り込みチラシ以外）,,ち
-粗大ごみ,漬物石（直径が30cm未満）,直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,つ
-普通ごみ,土,大量の場合、浮島埋立処分場に直接持込み。生活環境事業所にお問い合わせください。,つ
-普通ごみ,つっぱり棒、つっぱり棚,最長辺が50cm以上なら粗大ごみ,つ
-粗大ごみ,つっぱり棒、つっぱり棚,最長辺が50cm未満なら普通ごみ,つ
-小物金属,つっぱり棒、つっぱり棚,最長辺が30cm以上なら粗大ごみ,つ
-粗大ごみ,つっぱり棒、つっぱり棚,最長辺が30cm未満なら小物金属,つ
+Oversized Trash,漬物石（直径が30cm未満）,直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,つ
+Ordinary Trash,土,大量の場合、浮島埋立処分場に直接持込み。生活環境事業所にお問い合わせください。,つ
+Ordinary Trash,つっぱり棒、つっぱり棚,最長辺が50cm以上ならOversized Trash,つ
+Oversized Trash,つっぱり棒、つっぱり棚,最長辺が50cm未満ならOrdinary Trash,つ
+Small Metal Articles,つっぱり棒、つっぱり棚,最長辺が30cm以上ならOversized Trash,つ
+Oversized Trash,つっぱり棒、つっぱり棚,最長辺が30cm未満ならSmall Metal Articles,つ
 Mix Paper,ティッシュペーパーの箱,,て
-小物金属,テレビアンテナ,業者が交換した場合、市では収集しません。,て
-粗大ごみ,テレビアンテナ,,て
-小物金属,テレビチューナー（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,て
-粗大ごみ,テレビチューナー（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,て
-普通ごみ,DVD（ディスク),,て
-小物金属,DVDプレーヤー（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,て
-粗大ごみ,DVDプレーヤー（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,て
-小物金属,電気シェーバー,,て
-小物金属,電気スタンド,電球を取りはずす（電球は普通ごみへ）,て
-小物金属,電器ポット（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,て
-粗大ごみ,電器ポット（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,て
-粗大ごみ,電気毛布,たたんだ最長辺が30cm未満なら小物金属,て
-普通ごみ,電球,厚紙に包み「電球キケン」などと表示する,て
-小物金属,電子辞書,,て
-粗大ごみ,電子ピアノ,,て
-小物金属,電子レンジ（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,て
-粗大ごみ,電子レンジ（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,て
-小物金属,電卓,,て
-小物金属,電話（ファクシミリを含む）,最長辺が30cm以上なら粗大ごみ,て
-粗大ごみ,電話（ファクシミリを含む、最長辺が30cm以上）,最長辺が30cm未満なら小物金属,て
+Small Metal Articles,テレビアンテナ,業者が交換した場合、Wastes not collected by the City。,て
+Oversized Trash,テレビアンテナ,,て
+Small Metal Articles,テレビチューナー（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,て
+Oversized Trash,テレビチューナー（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,て
+Ordinary Trash,DVD（ディスク),,て
+Small Metal Articles,DVDプレーヤー（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,て
+Oversized Trash,DVDプレーヤー（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,て
+Small Metal Articles,電気シェーバー,,て
+Small Metal Articles,電気スタンド,電球を取りはずす（電球はOrdinary Trashへ）,て
+Small Metal Articles,電器ポット（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,て
+Oversized Trash,電器ポット（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,て
+Oversized Trash,電気毛布,たたんだ最長辺が30cm未満ならSmall Metal Articles,て
+Ordinary Trash,電球,厚紙に包み「電球キケン」などと表示する,て
+Small Metal Articles,電子辞書,,て
+Oversized Trash,電子ピアノ,,て
+Small Metal Articles,電子レンジ（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,て
+Oversized Trash,電子レンジ（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,て
+Small Metal Articles,電卓,,て
+Small Metal Articles,電話（ファクシミリを含む）,最長辺が30cm以上ならOversized Trash,て
+Oversized Trash,電話（ファクシミリを含む、最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,て
 Mix Paper,トイレットペーパーの芯,,と
-普通ごみ,陶器類,厚紙に包んで「キケン」と表示,と
-普通ごみ,陶製のびん,厚紙に包んで「キケン」と表示,と
-小物金属,時計（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,と
-粗大ごみ,時計（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,と
-小物金属,トースター（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,と
-粗大ごみ,トースター（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,と
-小物金属,ドライヤー（最長辺が30cm未満）,最長辺が30cm以上なら粗大ごみ,と
-粗大ごみ,ドライヤー（最長辺が30cm以上）,最長辺が30cm未満なら小物金属,と
-小物金属,鳥かご（金属製）,,と
-プラスチック製容器包装,トレイ（プラマークのあるもの）,店頭回収を行っているお店もあります,と
-普通ごみ,トレイ（プラマークのないもの）,最長辺が50cm以上なら粗大ごみ,と
-粗大ごみ,トレイ（プラマークのないもの、最長辺が50cm以上）,最長辺が50cm未満なら普通ごみ,と
-普通ごみ,長靴（安全靴）,金属部分は切り出し不要,な
+Ordinary Trash,陶器類,厚紙に包んで「キケン」と表示,と
+Ordinary Trash,陶製のびん,厚紙に包んで「キケン」と表示,と
+Small Metal Articles,時計（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,と
+Oversized Trash,時計（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,と
+Small Metal Articles,トースター（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,と
+Oversized Trash,トースター（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,と
+Small Metal Articles,ドライヤー（最長辺が30cm未満）,最長辺が30cm以上ならOversized Trash,と
+Oversized Trash,ドライヤー（最長辺が30cm以上）,最長辺が30cm未満ならSmall Metal Articles,と
+Small Metal Articles,鳥かご（金属製）,,と
+Plastic Containers and Packaging,トレイ（プラマークのあるもの）,店頭回収を行っているお店もあります,と
+Ordinary Trash,トレイ（プラマークのないもの）,最長辺が50cm以上ならOversized Trash,と
+Oversized Trash,トレイ（プラマークのないもの、最長辺が50cm以上）,最長辺が50cm未満ならOrdinary Trash,と
+Ordinary Trash,長靴（安全靴）,金属部分は切り出し不要,な
 Mix Paper,投げ込みチラシ,,な
-小物金属,鍋（金属・ホーロー製）（30cm未満）,柄・取っ手を除き、最長辺が30cm未満,な
-粗大ごみ,鍋（金属・ホーロー製）（30cm以上）,柄・取っ手を除き、最長辺が30cm以上,な
-普通ごみ,鍋（陶器・ガラス製）,厚紙に包み「陶器キケン」などと表示する,な
-普通ごみ,生ごみ,十分に水切りをする,な
-普通ごみ,人形（ぬいぐるみを含む）（50cm未満）,最長辺が50cm未満,に
-粗大ごみ,人形（ぬいぐるみを含む）（50cm以上）,最長辺が50cm以上,に
-普通ごみ,人形ケース（50cm未満）,最長辺が50cm未満,に
-粗大ごみ,人形ケース（50cm以上）,最長辺が50cm以上,に
-プラスチック製容器包装,ネット（果物などを包む）,,ね
-普通ごみ,ネット（水切り用）,,ね
-普通ごみ,粘土,,ね
+Small Metal Articles,鍋（金属・ホーロー製）（30cm未満）,柄・取っ手を除き、最長辺が30cm未満,な
+Oversized Trash,鍋（金属・ホーロー製）（30cm以上）,柄・取っ手を除き、最長辺が30cm以上,な
+Ordinary Trash,鍋（陶器・ガラス製）,厚紙に包み「陶器キケン」などと表示する,な
+Ordinary Trash,生ごみ,十分に水切りをする,な
+Ordinary Trash,人形（ぬいぐるみを含む）（50cm未満）,最長辺が50cm未満,に
+Oversized Trash,人形（ぬいぐるみを含む）（50cm以上）,最長辺が50cm以上,に
+Ordinary Trash,人形ケース（50cm未満）,最長辺が50cm未満,に
+Oversized Trash,人形ケース（50cm以上）,最長辺が50cm以上,に
+Plastic Containers and Packaging,ネット（果物などを包む）,,ね
+Ordinary Trash,ネット（水切り用）,,ね
+Ordinary Trash,粘土,,ね
 Mix Paper,ノート,,の
-市では収集しません,農薬,購入店に相談,の
-小物金属,灰皿（金属製）,,は
+Wastes not collected by the City,農薬,購入店に相談,の
+Small Metal Articles,灰皿（金属製）,,は
 Mix Paper,はがき,,は
-小物金属,はがき等作成機器（プリントゴッコなど）（30cm未満）,最長辺が30cm未満,は
-粗大ごみ,はがき等作成機器（プリントゴッコなど）（30cm以上）,最長辺が30cm以上,は
-普通ごみ,バケツ（50cm未満）,最長辺が50cm未満,は
-粗大ごみ,バケツ（50cm以上）,最長辺が50cm以上,は
-粗大ごみ,バスタブ,業者が交換した場合、市では収集しません。,は
-普通ごみ,はくせい（50cm未満）,最長辺が50cm未満,は
-粗大ごみ,はくせい（50cm以上）,最長辺が50cm以上,は
-市では収集しません,パソコン本体,メーカーで回収　市で収集しないもの「パソコン」参照,は
-市では収集しません,パソコンのモニター,メーカーで回収　市で収集しないもの「パソコン」参照,は
-小物金属,パソコン周辺機器（アダプタ・ケーブル・マウス・キーボード・マザーボード・ハードディスクなどパソコン本体・モニターではない部分）（30cm未満）,最長辺が30cm未満　ケーブルは束ねて出す,は
-粗大ごみ,パソコン周辺機器（アダプタ・ケーブル・マウス・キーボード・マザーボード・ハードディスクなどパソコン本体・モニターではない部分）（30cm以上）,最長辺が30cm以上　ケーブルは束ねて出す,は
-小物金属,パソコンのケース（30cm未満）,最長辺が30cm未満,は
-粗大ごみ,パソコンのケース（30cm以上）,最長辺が30cm以上,は
-市では収集しません,バッテリー,購入店に相談,は
-普通ごみ,歯ブラシ,,は
-普通ごみ,発泡スチロールの容器（製品として購入したもの）（50cm未満）,最長辺が50cm未満,は
-粗大ごみ,発泡スチロールの容器（製品として購入したもの）（50cm以上）,最長辺が50cm以上,は
-プラスチック製容器包装,発泡スチロールの容器（商品が入っていた容器）（50cm未満）,最長辺が50cm未満,は
-粗大ごみ,発泡スチロールの容器（商品が入っていた容器）（50cm以上）,最長辺が50cm以上,は
-プラスチック製容器包装,発泡スチロールの緩衝材（50cm未満）,最長辺が50cm未満,は
-粗大ごみ,発泡スチロールの緩衝材（50cm以上）,最長辺が50cm以上,は
-普通ごみ,花火,水でぬらしてから出す（多量なら購入店に相談）,は
-小物金属,刃物（はさみを含む）（30cm未満）,厚紙で包み「刃物キケン」と表示　最長辺が30cm未満,は
-粗大ごみ,刃物（はさみを含む）（30cm以上）,厚紙で包み「刃物キケン」と表示　最長辺が30cm以上,は
-小物金属,針金ハンガー,,は
+Small Metal Articles,はがき等作成機器（プリントゴッコなど）（30cm未満）,最長辺が30cm未満,は
+Oversized Trash,はがき等作成機器（プリントゴッコなど）（30cm以上）,最長辺が30cm以上,は
+Ordinary Trash,バケツ（50cm未満）,最長辺が50cm未満,は
+Oversized Trash,バケツ（50cm以上）,最長辺が50cm以上,は
+Oversized Trash,バスタブ,業者が交換した場合、Wastes not collected by the City。,は
+Ordinary Trash,はくせい（50cm未満）,最長辺が50cm未満,は
+Oversized Trash,はくせい（50cm以上）,最長辺が50cm以上,は
+Wastes not collected by the City,パソコン本体,メーカーで回収　市で収集しないもの「パソコン」参照,は
+Wastes not collected by the City,パソコンのモニター,メーカーで回収　市で収集しないもの「パソコン」参照,は
+Small Metal Articles,パソコン周辺機器（アダプタ・ケーブル・マウス・キーボード・マザーボード・ハードディスクなどパソコン本体・モニターではない部分）（30cm未満）,最長辺が30cm未満　ケーブルは束ねて出す,は
+Oversized Trash,パソコン周辺機器（アダプタ・ケーブル・マウス・キーボード・マザーボード・ハードディスクなどパソコン本体・モニターではない部分）（30cm以上）,最長辺が30cm以上　ケーブルは束ねて出す,は
+Small Metal Articles,パソコンのケース（30cm未満）,最長辺が30cm未満,は
+Oversized Trash,パソコンのケース（30cm以上）,最長辺が30cm以上,は
+Wastes not collected by the City,バッテリー,購入店に相談,は
+Ordinary Trash,歯ブラシ,,は
+Ordinary Trash,発泡スチロールの容器（製品として購入したもの）（50cm未満）,最長辺が50cm未満,は
+Oversized Trash,発泡スチロールの容器（製品として購入したもの）（50cm以上）,最長辺が50cm以上,は
+Plastic Containers and Packaging,発泡スチロールの容器（商品が入っていた容器）（50cm未満）,最長辺が50cm未満,は
+Oversized Trash,発泡スチロールの容器（商品が入っていた容器）（50cm以上）,最長辺が50cm以上,は
+Plastic Containers and Packaging,発泡スチロールの緩衝材（50cm未満）,最長辺が50cm未満,は
+Oversized Trash,発泡スチロールの緩衝材（50cm以上）,最長辺が50cm以上,は
+Ordinary Trash,花火,水でぬらしてから出す（多量なら購入店に相談）,は
+Small Metal Articles,刃物（はさみを含む）（30cm未満）,厚紙で包み「刃物キケン」と表示　最長辺が30cm未満,は
+Oversized Trash,刃物（はさみを含む）（30cm以上）,厚紙で包み「刃物キケン」と表示　最長辺が30cm以上,は
+Small Metal Articles,針金ハンガー,,は
 Mix Paper,パンフレット,,は
-プラスチック製容器包装,発泡スチロール,,は
-普通ごみ,PPバンド,,ぴ
-空きびん,ビールびん,できるだけ購入店か資源集団回収へ,ひ
-市では収集しません,ピアノ,購入店に相談（電子ピアノは粗大ごみ）,ひ
-小物金属,ビデオカメラ（30cm未満）,最長辺が30cm未満,ひ
-粗大ごみ,ビデオカメラ（30cm以上）,最長辺が30cm以上,ひ
-普通ごみ,ビデオテープ,,ひ
-小物金属,美容器具（30cm未満）,最長片が30cm未満,ひ
-粗大ごみ,美容器具（30cm以上）,最長片が30cm以上,ひ
-小物金属,ファックス複合機（30cm未満）,最長辺が30cm未満,ふ
-粗大ごみ,ファックス複合機（30cm以上）,最長辺が30cm以上,ふ
-粗大ごみ,ファンヒーター,,ふ
-粗大ごみ,フィットネスバイク（室内用）,,ふ
-小物金属,フードプロセッサ（30cm未満）,最長辺が30cm未満,ふ
-粗大ごみ,フードプロセッサ（30cm以上）,最長辺が30cm以上,ふ
-普通ごみ,フォーク（プラスチック製）,,ふ
-空き缶・ペットボトル,ふた・キャップ（金属製）,,ふ
-プラスチック製容器包装,ふた・キャップ（プラスチック製）,,ふ
-粗大ごみ,布団,5枚まで1組。ひもで縛る,ふ
-粗大ごみ,フローリングカーペット（2m以下）,2m以下のもの,ふ
-処理困難物,フローリングカーペット（2mを超えるもの）,2mを超えるものは収集できません。購入店等に処分方法をご相談ください。,ふ
-粗大ごみ,風呂のふた,丸めたりできる場合は丸めて、ひもで縛る,ふ
-普通ごみ,プラスチック製の品物（50cm未満）,最長辺が50cm未満,ふ
-粗大ごみ,プラスチック製の品物（50cm以上）,最長辺が50cm以上,ふ
-小物金属,プリンター（30cm未満）,最長辺が30cm未満,ふ
-粗大ごみ,プリンター（30cm以上）,最長辺が30cm以上,ふ
-小物金属,フライパン（30cm未満）,柄・取っ手を除き、最長辺が30cm未満,ふ
-粗大ごみ,フライパン（30cm以上）,柄・取っ手を除き、最長辺が30cm以上,ふ
-普通ごみ,プリンターのインクカートリッジ,回収している販売店もあります,ふ
-粗大ごみ,プロジェクションテレビ（家電リサイクル対象外のもの）,あらかじめメーカーで「家電リサイクル対象外」の確認をし、粗大ごみ受付センターへ申し込んでください。出すときは「家電リサイクル対象外　メーカーに確認済」と張り紙をしてください。,ふ
-市では収集しません,ブロック（ブロック塀・コンクリート）,購入店に相談,ふ
-普通ごみ,フロッピーディスク,,ふ
-普通ごみ,ペットの糞やトイレシート,新聞紙等にくるみ、ビニール袋に入れ、におい等がもれないよう固く縛って出してください。,へ
-小物金属,ヘッドホン,,へ
-空き缶・ペットボトル,ペットボトル（飲料、酒、みりん類、しょうゆ、酢など）,,へ
-普通ごみ,ペットボトル（ソースや食用油）,,へ
-プラスチック製容器包装,ペットボトルのキャップ・ラベル,,へ
-粗大ごみ,ベッド,,へ
-普通ごみ,ヘルメット,,へ
-小物金属,ペンチ,,ぺ
-普通ごみ,弁当箱（プラスチック製）,,へ
-小物金属,弁当箱（アルミ製）,,へ
-プラスチック製容器包装,弁当箱（コンビニエンスストア等）,プラ容器は中身を使い切って、軽く洗ってから出す,へ
+Plastic Containers and Packaging,発泡スチロール,,は
+Ordinary Trash,PPバンド,,ぴ
+Empty Bottles,ビールびん,できるだけ購入店か資源集団回収へ,ひ
+Wastes not collected by the City,ピアノ,購入店に相談（電子ピアノはOversized Trash）,ひ
+Small Metal Articles,ビデオカメラ（30cm未満）,最長辺が30cm未満,ひ
+Oversized Trash,ビデオカメラ（30cm以上）,最長辺が30cm以上,ひ
+Ordinary Trash,ビデオテープ,,ひ
+Small Metal Articles,美容器具（30cm未満）,最長片が30cm未満,ひ
+Oversized Trash,美容器具（30cm以上）,最長片が30cm以上,ひ
+Small Metal Articles,ファックス複合機（30cm未満）,最長辺が30cm未満,ふ
+Oversized Trash,ファックス複合機（30cm以上）,最長辺が30cm以上,ふ
+Oversized Trash,ファンヒーター,,ふ
+Oversized Trash,フィットネスバイク（室内用）,,ふ
+Small Metal Articles,フードプロセッサ（30cm未満）,最長辺が30cm未満,ふ
+Oversized Trash,フードプロセッサ（30cm以上）,最長辺が30cm以上,ふ
+Ordinary Trash,フォーク（プラスチック製）,,ふ
+Empty Cans・PET Bottles,ふた・キャップ（金属製）,,ふ
+Plastic Containers and Packaging,ふた・キャップ（プラスチック製）,,ふ
+Oversized Trash,布団,5枚まで1組。ひもで縛る,ふ
+Oversized Trash,フローリングカーペット（2m以下）,2m以下のもの,ふ
+Wastes not collected by the City,フローリングカーペット（2mを超えるもの）,2mを超えるものは収集できません。購入店等に処分方法をご相談ください。,ふ
+Oversized Trash,風呂のふた,丸めたりできる場合は丸めて、ひもで縛る,ふ
+Ordinary Trash,プラスチック製の品物（50cm未満）,最長辺が50cm未満,ふ
+Oversized Trash,プラスチック製の品物（50cm以上）,最長辺が50cm以上,ふ
+Small Metal Articles,プリンター（30cm未満）,最長辺が30cm未満,ふ
+Oversized Trash,プリンター（30cm以上）,最長辺が30cm以上,ふ
+Small Metal Articles,フライパン（30cm未満）,柄・取っ手を除き、最長辺が30cm未満,ふ
+Oversized Trash,フライパン（30cm以上）,柄・取っ手を除き、最長辺が30cm以上,ふ
+Ordinary Trash,プリンターのインクカートリッジ,回収している販売店もあります,ふ
+Oversized Trash,プロジェクションテレビ（家電リサイクル対象外のもの）,あらかじめメーカーで「家電リサイクル対象外」の確認をし、Oversized Trash受付センターへ申し込んでください。出すときは「家電リサイクル対象外　メーカーに確認済」と張り紙をしてください。,ふ
+Wastes not collected by the City,ブロック（ブロック塀・コンクリート）,購入店に相談,ふ
+Ordinary Trash,フロッピーディスク,,ふ
+Ordinary Trash,ペットの糞やトイレシート,新聞紙等にくるみ、ビニール袋に入れ、におい等がもれないよう固く縛って出してください。,へ
+Small Metal Articles,ヘッドホン,,へ
+Empty Cans・PET Bottles,PET Bottles（飲料、酒、みりん類、しょうゆ、酢など）,,へ
+Ordinary Trash,PET Bottles（ソースや食用油）,,へ
+Plastic Containers and Packaging,PET Bottlesのキャップ・ラベル,,へ
+Oversized Trash,ベッド,,へ
+Ordinary Trash,ヘルメット,,へ
+Small Metal Articles,ペンチ,,ぺ
+Ordinary Trash,弁当箱（プラスチック製）,,へ
+Small Metal Articles,弁当箱（アルミ製）,,へ
+Plastic Containers and Packaging,弁当箱（コンビニエンスストア等）,プラ容器は中身を使い切って、軽く洗ってから出す,へ
 Mix Paper,包装紙,,ほ
-粗大ごみ,ボウリングの球（30cm未満）（1回につき5個まで）,粗大ごみ受付センターへ申込み（無料）直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,ほ
-小物金属,ボウル,,ぼ
-小物金属,ポット（30cm未満）,最長辺が30cm未満,ほ
-粗大ごみ,ポット（30cm以上）,最長辺が30cm以上,ほ
-小物金属,ホットカーラー,,ほ
-普通ごみ,哺乳瓶,厚紙に包み「ワレモノキケン」などと表示する,ほ
-普通ごみ,ポリタンク（50cm未満）,中を空にして出す　最長辺が50cm未満。,ほ
-粗大ごみ,ポリタンク（50cm以上）,中を空にして出す　最長辺が50cm以上,ほ
-普通ごみ,ポリバケツ（50cm未満）,最長辺が50cm未満,ほ
-粗大ごみ,ポリバケツ（50cm以上）,最長辺が50cm以上,ほ
-普通ごみ,保冷剤,,ほ
-資源集団回収または普通ごみ,本（書籍),,ほ
-普通ごみ,マニキュアの容器（びん）,,ま
-普通ごみ,マッチ,,ま
-粗大ごみ,マットレス（足なし・足つき）,,ま
-小物金属,魔法瓶（最長辺が30cm未満）,,ま
-粗大ごみ,魔法瓶（最長辺が30cm以上）,,ま
+Oversized Trash,ボウリングの球（30cm未満）（1回につき5個まで）,Oversized Trash受付センターへ申込み（無料）直径が30cm未満のもので、1回につき5個まで。30cm以上のものは販売店にご相談ください。,ほ
+Small Metal Articles,ボウル,,ぼ
+Small Metal Articles,ポット（30cm未満）,最長辺が30cm未満,ほ
+Oversized Trash,ポット（30cm以上）,最長辺が30cm以上,ほ
+Small Metal Articles,ホットカーラー,,ほ
+Ordinary Trash,哺乳瓶,厚紙に包み「ワレモノキケン」などと表示する,ほ
+Ordinary Trash,ポリタンク（50cm未満）,中を空にして出す　最長辺が50cm未満。,ほ
+Oversized Trash,ポリタンク（50cm以上）,中を空にして出す　最長辺が50cm以上,ほ
+Ordinary Trash,ポリバケツ（50cm未満）,最長辺が50cm未満,ほ
+Oversized Trash,ポリバケツ（50cm以上）,最長辺が50cm以上,ほ
+Ordinary Trash,保冷剤,,ほ
+資源集団回収またはOrdinary Trash,本（書籍),,ほ
+Ordinary Trash,マニキュアの容器（びん）,,ま
+Ordinary Trash,マッチ,,ま
+Oversized Trash,マットレス（足なし・足つき）,,ま
+Small Metal Articles,魔法瓶（最長辺が30cm未満）,,ま
+Oversized Trash,魔法瓶（最長辺が30cm以上）,,ま
 Mix Paper,メモ帳,,め
-普通ごみ,毛布,最長辺を50cm未満にたたんで出す,も
-小物金属,餅網,,も
-粗大ごみ,物干し竿（2m未満）,,も
-粗大ごみ,物干し竿（2m以上）,少し超える程度であれば、切断せずにそのまま粗大ごみとして出せます。申し込み後は受付番号（または到達番号）と物干し竿の長さを、生活環境部収集計画課に電話またはメールでお知らせください。,も
-小物金属,やかん（最長辺が30cm未満）,柄・取っ手を除き、最長辺が30cm以上なら粗大ごみ,や
-粗大ごみ,やかん（最長辺が30cm以上）,柄・取っ手を除き、最長辺が30cm以上なら粗大ごみ,や
-普通ごみ,焼きとり等の串,先を折るなど危なくないようにして出す,や
-普通ごみ,湯たんぽ,,ゆ
-小物金属,湯たんぽ（金属製）,,ゆ
-普通ごみ,ライター（使い切り式）,ガス・オイルは使い切るか、抜いて出す,ら
-小物金属,ライター（充てん式）,ガス・オイルは使い切るか、抜いて出す,ら
-小物金属,ラジオ（30cm未満）,最長辺が30cm以上なら粗大ごみ。乾電池を取りはずす（乾電池は資源物へ）,ら
-粗大ゴミ,ラジオ（30cm以上）,最長辺が30cm以上なら粗大ごみ。乾電池を取りはずす（乾電池は資源物へ）,ら
-プラスチック製容器包装,ラップ（商品を包んでいたもの）,汚れたものは普通ごみ,ら
+Ordinary Trash,毛布,最長辺を50cm未満にたたんで出す,も
+Small Metal Articles,餅網,,も
+Oversized Trash,物干し竿（2m未満）,,も
+Oversized Trash,物干し竿（2m以上）,少し超える程度であれば、切断せずにそのままOversized Trashとして出せます。申し込み後は受付番号（または到達番号）と物干し竿の長さを、生活環境部収集計画課に電話またはメールでお知らせください。,も
+Small Metal Articles,やかん（最長辺が30cm未満）,柄・取っ手を除き、最長辺が30cm以上ならOversized Trash,や
+Oversized Trash,やかん（最長辺が30cm以上）,柄・取っ手を除き、最長辺が30cm以上ならOversized Trash,や
+Ordinary Trash,焼きとり等の串,先を折るなど危なくないようにして出す,や
+Ordinary Trash,湯たんぽ,,ゆ
+Small Metal Articles,湯たんぽ（金属製）,,ゆ
+Ordinary Trash,ライター（使い切り式）,ガス・オイルは使い切るか、抜いて出す,ら
+Small Metal Articles,ライター（充てん式）,ガス・オイルは使い切るか、抜いて出す,ら
+Small Metal Articles,ラジオ（30cm未満）,最長辺が30cm以上ならOversized Trash。乾電池を取りはずす（乾電池は資源物へ）,ら
+Oversized Trash,ラジオ（30cm以上）,最長辺が30cm以上ならOversized Trash。乾電池を取りはずす（乾電池は資源物へ）,ら
+Plastic Containers and Packaging,ラップ（商品を包んでいたもの）,汚れたものはOrdinary Trash,ら
 Mix Paper,ラップの芯,,ら
-小物金属,リモコン,,り
-小物金属,レーザープリンタ,たたんだ30cm以上なら粗大ごみ,れ
-粗大ごみ,レーザープリンタ,たたんだ30cm以上なら粗大ごみ,れ
+Small Metal Articles,リモコン,,り
+Small Metal Articles,レーザープリンタ,たたんだ30cm以上ならOversized Trash,れ
+Oversized Trash,レーザープリンタ,たたんだ30cm以上ならOversized Trash,れ
 Mix Paper,レシート,,れ
-プラスチック製容器包装,レジ袋,,れ
+Plastic Containers and Packaging,レジ袋,,れ
