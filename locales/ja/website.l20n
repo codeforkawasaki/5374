@@ -1,16 +1,56 @@
 <about """5374.jpについて""">
 <title """5374(ｺﾞﾐﾅｼ).jp 神奈川県川崎市版""">
+
 <help """
 ゴミの問題は、どの地域でも深刻になりつつあります。
 Code for Kanazawa(金沢)では、先ずは正しいゴミの捨て方に注目しました。
 目的と使い方は、とてもシンプルです。""">
+
 <purpose """目的""">
 <purpose_article """
 「いつ、どのゴミが収集されているのか？」
 例えばお引っ越しをされた場合や、新しく金沢市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
 """>
+
 <howtouse """使い方""">
+<howtouse_category """色でゴミのジャンルを表示""">
+<howtouse_category_article """一番近いゴミの日とジャンルを上から順に表示しています。""">
+
+<howtouse_type """捨てる事が可能なゴミ """>
+<howtouse_type_article """ゴミのジャンルをタップすると、捨てることが可能なゴミの一覧を見ることができます """>
+
+<setting """設定""">
+<setting_article """お住まいの地域を選択することで、ゴミ収集日が自動的に更新されます。""">
+
+<caption """提供されるゴミ情報について""">
+<caption_article """川崎市が公開している<u><a href="http://www.city.kawasaki.jp/kurashi/category/24-1-0-0-0-0-0-0-0-0.html" style="color:#000000;">ごみ・リサイクルのデータ</a></u>をオープン川崎/Code for Kawasaki(川崎)が独自に解析しアプリに実装しました。""">
+
 <license """ライセンスについて""">
+<license_article """本アプリの著作権はCode for Kanazawa(金沢)に帰属します。""">
+
+<cfx_kanazawa """Code for Kanazawa (金沢)について""">
+<cfx_kanazawa_article """
+コードで、世界をHappyに。<br>
+各地域には様々な課題があり、解決するためのコミュニティ（団体）も数多くあります。<br>
+課題の中には、ITやデザインの力で解決できるものも多くありますが、全てのコミュニティにそのスキル（技術）が備わっているわけではありません。<br><br>
+Code for Kanazawa (金沢)は、市民の課題を集め、その課題を整理・分析した上で、メンバーが実際に課題解決となるソフトウェアやハードウェア（仕組みや方法）を開発します。<br>
+私たちは、デザインをして、ソフトウェアコードを書き、課題を解決するサービスを完成させるのです。さらに、そのサービスを提供し続ける力も持ちます。<br><br>
+Code for Kanazawa (金沢)は市民のための組織です。行政や民間企業の影響を受けずに中立・公益の立場から物事を判断するよう心がけています。<br><br>
+公式サイト<br>
+<a href="http://www.codeforkanazawa.org/" class="normal">http://www.codeforkanazawa.org/</a>
+""">
+
+<cfx_kawasaki """オープン川崎/Code for Kawasaki(川崎)について""">
+<cfx_kawasaki_article """
+Code for Kawasaki(川崎)は、<a href="http://code4japan.org/" class="normal">Code for Japan </a>のコンセプトに賛同する、<br>
+川崎市の地域社会の向上をITで行うことを目指すコミュニティです<br>
+※ Code for Kawasaki(川崎)は「オープン川崎」が運営母体の分科会です
+""">
+<cfx_kawasaki_page """
+Facebookページ<br>
+<a href="https://www.facebook.com/codeforkawasaki" class="normal">https://www.facebook.com/codeforkawasaki</a>
+""">
+
 
 <!-- JS -->
 <selectward """区を選択してください""">
