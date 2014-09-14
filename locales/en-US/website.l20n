@@ -1,5 +1,19 @@
 <about """About 5374.jp""">
+<title """5374.jp Kanagawa Kawasaki""">
+<help """
+The problem of the garbage is serious in all areas.
+The Code for Kanazawa puts emphasis on "Recyclables and Garbage".
+How to use is very simple.
+""">
 <purpose """Purpose""">
+<purpose_article """
+Where and when do garbage is collected? 
+
+e.g.)
+when you moved to the Kanazawa-city, 
+you easily understand how to discard garbage 
+if you use this application.
+""">
 <howtouse """How to use""">
 <license """License""">
 
