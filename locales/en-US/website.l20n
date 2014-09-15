@@ -70,3 +70,10 @@ Facebookページ<br>
 <dayaftertomorrow """Day after tomorrow""">
 <dayslater """Days later""">
 
+<sun """Sun""">
+<mon """Mon""">
+<tue """Tue""">
+<wed """Wed""">
+<thu """Thur""">
+<fri """Fri""">
+<sat """Sat""">
