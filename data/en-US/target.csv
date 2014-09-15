@@ -3,7 +3,7 @@ Ordinary trash,aluminum foil,,A
 Small metal articles,Irons,,I
 Small metal articles,Ironing board(within 30cm),"The case of over 30cm in the longest side, Oversized trash",I
 Oversized trash,Ironing board(over 30cm),,I
-"Empty cans,PET bottles","Empty cans(Cans for drinking, sweets, dried milk,etc. and spray cans)",,E
+"Empty cans, PET bottles","Empty cans(Cans for drinking, sweets, dried milk,etc. and spray cans)",,E
 Empty bottles,"Empty bottles(bottles for drinking, spices)",,E
 Mixed paper,Photo Albums(paper),"Made from paper:Mixed paper(The album with metal can be collected Mixed paper. But if the metal can be removed, the metal is collectedSmall metal articles)",P
 Ordinary trash,Photo Albums(prastic),"The material is made from prastic,Ordinary trash",P
@@ -44,9 +44,9 @@ Small metal articles,Squared hangers(Metaric),,S
 Small metal articles,Umbrellas,,U
 Small metal articles,Humidifiers(within 30cm),"The case of over 30cm in the longest side, Oversized trash",C
 Oversized trash,Humidifiers(over 30cm),"The case of within 30cm in the longest side, Small metal articles.",C
-"Empty cans,PET bottles",Cans for sweets etc.,,C
+"Empty cans, PET bottles",Cans for sweets etc.,,C
 Mixed paper,Boxes for sweets etc.,,B
-"Empty cans,PET bottles","Gas cassette cartridges,Please empty the gas.",,G
+"Empty cans, PET bottles","Gas cassette cartridges,Please empty the gas.",,G
 Ordinary trash,Cassette Tape,,C
 Small metal articles,カッター・剃刀の刃,刃を厚紙で包み「カッターキケン」などと表示する,か
 Ordinary trash,カットウィッグ（美容師練習用）,Ordinary trashで出す場合、あらかじめ家庭から出るものであることを生活環境事業所に連絡してください。,か
@@ -65,8 +65,8 @@ Ordinary trash,ガラス製品（50ｃｍ未満）,厚紙に包み「ガラス�
 Oversized trash,ガラス製品（50ｃｍ以上）,厚紙に包み「ガラスキケン」と表示する。最長辺が50cm未満ならOrdinary trash,か
 Oversized trash,カーテンレール,,か
 Ordinary trash,革類,できるだけ資源集団回収へ,か
-使用済み乾電池,乾電池（積層型・筒型アルカリ・筒型マンガン・リチウムコイン乾電池（型式記号CR及びBR））,透明・半透明の袋に一緒に入れて出す。マンション等で管理組合のルールがある場合はそちらに従う,か
-"Empty cans,PET bottles",缶詰,中身と缶を分けてそれぞれ出してください,か
+Used batteries,乾電池（積層型・筒型アルカリ・筒型マンガン・リチウムコイン乾電池（型式記号CR及びBR））,透明・半透明の袋に一緒に入れて出す。マンション等で管理組合のルールがある場合はそちらに従う,か
+"Empty cans, PET bottles",缶詰,中身と缶を分けてそれぞれ出してください,か
 Plastic films of containers,気泡緩衝材（プチプチ）,,き
 Small metal articles,ギタースタンド（30cm未満）,最長辺が30cm以上ならOversized trash,き
 Oversized trash,ギタースタンド（30cm以上）,最長辺が30cm未満ならSmall metal articles,き
@@ -128,7 +128,7 @@ Small metal articles,浄水器のカートリッジ（金属を含む場合）�
 Oversized trash,浄水器のカートリッジ（金属を含む場合）（最長辺が30cm以上）,最長辺が30cm未満ならSmall metal articles,し
 Small metal articles,照明器具（最長辺が30cm未満）,最長辺が30cm以上ならOversized trash（蛍光管、電球はOrdinary trash）,し
 Oversized trash,照明器具（最長辺が30cm以上）,最長辺が30cm未満ならSmall metal articles（蛍光管、電球はOrdinary trash）,し
-"Empty cans,PET bottles",食用油の缶,使い切って、さっと洗ってから出す,し
+"Empty cans, PET bottles",食用油の缶,使い切って、さっと洗ってから出す,し
 Empty bottles,食用油のびん,使い切って、さっと洗ってから出す,し
 Ordinary trash,水槽（金属を含まない）（最長辺が50cm未満）,最長辺が50cm以上ならOversized trash,す
 Oversized trash,水槽（金属を含まない）（最長辺が50cm以上）,最長辺が50cm未満ならOrdinary trash,す
@@ -159,7 +159,7 @@ Small metal articles,スピーカー（最長辺が30cm未満）,最長辺が30c
 Oversized trash,スピーカー（最長辺が30cm以上）,最長辺が30cm未満ならSmall metal articles,す
 Ordinary trash,スプーン（プラスチック製）,,す
 Small metal articles,スプーン（金属製）,,す
-"Empty cans,PET bottles",スプレー缶,使いきって、中身を空にしてから出す,す
+"Empty cans, PET bottles",スプレー缶,使いきって、中身を空にしてから出す,す
 Plastic films of containers,スプレー缶のキャップ,,す
 Ordinary trash,生理用品,,せ
 Plastic films of containers,生理用品の外袋,,せ
@@ -289,7 +289,7 @@ Oversized trash,フィットネスバイク（室内用）,,ふ
 Small metal articles,フードプロセッサ（30cm未満）,最長辺が30cm未満,ふ
 Oversized trash,フードプロセッサ（30cm以上）,最長辺が30cm以上,ふ
 Ordinary trash,フォーク（プラスチック製）,,ふ
-"Empty cans,PET bottles",ふた・キャップ（金属製）,,ふ
+"Empty cans, PET bottles",ふた・キャップ（金属製）,,ふ
 Plastic films of containers,ふた・キャップ（プラスチック製）,,ふ
 Oversized trash,布団,5枚まで1組。ひもで縛る,ふ
 Oversized trash,フローリングカーペット（2m以下）,2m以下のもの,ふ
@@ -307,7 +307,7 @@ Wastes not collected by the City,ブロック（ブロック塀・コンクリ�
 Ordinary trash,フロッピーディスク,,ふ
 Ordinary trash,ペットの糞やトイレシート,新聞紙等にくるみ、ビニール袋に入れ、におい等がもれないよう固く縛って出してください。,へ
 Small metal articles,ヘッドホン,,へ
-"Empty cans,PET bottles",PET bottles（飲料、酒、みりん類、しょうゆ、酢など）,,へ
+"Empty cans, PET bottles",PET bottles（飲料、酒、みりん類、しょうゆ、酢など）,,へ
 Ordinary trash,PET bottles（ソースや食用油）,,へ
 Plastic films of containers,PET bottlesのキャップ・ラベル,,へ
 Oversized trash,ベッド,,へ
