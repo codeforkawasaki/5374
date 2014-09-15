@@ -175,7 +175,7 @@ var TrashModel = function(_lable, _cell, remarks, l10n) {
             //
             //4月1日を基準にして曜日の差分で時間を戻し、最大５週までの増加させて毎週を表現
             d.setTime(date.getTime() + 1000 * 60 * 60 * 24 *
-              ((7 + getDayIndex(day_mix[j].charAt(0)) - date.getDay()) % 7) + week * 7 * 24 * 60 * 60 * 1000
+              ((7 + getDayIndex(day_mix[j].replace(/[0-9]/, '')) - date.getDay()) % 7) + week * 7 * 24 * 60 * 60 * 1000
             );
             //年末年始のずらしの対応
             //休止期間なら、今後の日程を１週間ずらす
