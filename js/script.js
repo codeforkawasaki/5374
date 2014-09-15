@@ -58,7 +58,7 @@ var AreaModel = function() {
 /**
   各ゴミのカテゴリを管理するクラスです。
 */
-var TrashModel = function(_lable, _cell, remarks) {
+var TrashModel = function(_lable, _cell, remarks, l10n) {
   this.remarks = remarks;
   this.dayLabel;
   this.mostRecent;
@@ -83,8 +83,18 @@ var TrashModel = function(_lable, _cell, remarks) {
   var result_text = "";
   //var today = new Date();
 
+  var day_enum = [
+    l10n.entities.sun.value,
+    l10n.entities.mon.value,
+    l10n.entities.tue.value,
+    l10n.entities.wed.value,
+    l10n.entities.thu.value,
+    l10n.entities.fri.value,
+    l10n.entities.sat.value
+  ];
+
   for (var j in this.dayCell) {
-    if (this.dayCell[j].length === 1) {
+    if ($.inArray(this.dayCell[j], day_enum)) {
       result_text += "毎週" + this.dayCell[j] + "曜日 ";
     } else if (this.dayCell[j].length === 2 && this.dayCell[j].substr(0,1) != "*") {
       result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
@@ -102,7 +112,6 @@ var TrashModel = function(_lable, _cell, remarks) {
     return this.getRemark() + this.dayLabel + " " + result_text;
   };
 
-  var day_enum = ["日", "月", "火", "水", "木", "金", "土"];
 
   function getDayIndex(str) {
     for (var i = 0; i < day_enum.length; i++) {
@@ -185,8 +194,9 @@ var TrashModel = function(_lable, _cell, remarks) {
               continue;
             }
             //特定の週のみ処理する
-            if (day_mix[j].length > 1) {
-              if (week != day_mix[j].charAt(1) - 1) {
+            var last_str = day_mix[j].substr(day_mix[j].length - 1, 1);
+            if (!isNaN(last_str - 0)) {
+              if (last_str != week) {
                 continue;
               }
             }
@@ -372,12 +382,18 @@ $(function() {
        csvdata = csvdata.replace(/\r/gm, "");
       var line = csvdata.split("\n"),
           ret = [];
+      var opt = {
+        quotes: false,
+        delimiter: ",",
+        newline: "\r\n"
+      }
       for (var i in line) {
         //空行はスルーする。
         if (line[i].length === 0) continue;
 
-        var row = line[i].split(",");
-        ret.push(row);
+        var csv = new CSV(line[i], opt).parse();
+        //var row = line[i].split(",");
+        ret.push(csv[0]);
       }
       cb(ret);
     });
@@ -443,13 +459,15 @@ $(function() {
           // 区コードが一致した場合のみデータ格納
           if(area.mastercode == mastercode){
             areaModels.push(area);
-            //２列目以降の処理
-            for (var r = 3; r < 3 + MaxDescription; r++) {
-              if (area_days_label[r]) {
-                var trash = new TrashModel(area_days_label[r], row[r], remarks);
-                area.trash.push(trash);
+            ctx.localize(['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], function(l10n) {
+              //２列目以降の処理
+              for (var r = 3; r < 3 + MaxDescription; r++) {
+                if (area_days_label[r]) {
+                  var trash = new TrashModel(area_days_label[r], row[r], remarks, l10n);
+                  area.trash.push(trash);
+                }
               }
-            }
+            });
           }
         }
 
