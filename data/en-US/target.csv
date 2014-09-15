@@ -3,42 +3,42 @@ Ordinary trash,aluminum foil,,A
 Small metal articles,Irons,,I
 Small metal articles,Ironing board(within 30cm),"The case of over 30cm in the longest side, Oversized trash",I
 Oversized trash,Ironing board(over 30cm),,I
-"Empty cans,PET bottles",Empty cans(Cans for drinking, sweets, dried milk,etc. and spray cans),,E
-Empty bottles,Empty bottles(bottles for drinking, spices),,E
+"Empty cans,PET bottles","Empty cans(Cans for drinking, sweets, dried milk,etc. and spray cans)",,E
+Empty bottles,"Empty bottles(bottles for drinking, spices)",,E
 Mixed paper,Photo Albums(paper),"Made from paper:Mixed paper(The album with metal can be collected Mixed paper. But if the metal can be removed, the metal is collectedSmall metal articles)",P
 Ordinary trash,Photo Albums(prastic),"The material is made from prastic,Ordinary trash",P
 Ordinary trash,Cooking Oil(Used),"Either absorb in cloth or use a solidifying agent before disposing.",C
 Oversized trash,Stones(within 30cm),"Apply for collection at Oversized trash Center(Free).Under 5 pieces per once and size within 30cm in diameter.In the case of over 30cm, Please consult with a shop or store of purchase.",S
 Empty bottles,issho-bin,"I possible, dispose with local group recyclable resource collections or return them to a shop or store of purchase.",I
-Ordinary trash,Flat glasses(within 50cm), "The case of over 50cm in the longest side, Oversized trash",F
+Ordinary trash,Flat glasses(within 50cm),"The case of over 50cm in the longest side, Oversized trash",F
 Oversized trash,Flat glasses(over 50cm),"The case of within 50cm in the longest side, Ordinary trash",F
-Oversized trash,"Itto-kan, cans (18-liter square cans),not collected for business activities,I
+Oversized trash,Itto-kan,"cans (18-liter square cans),not collected for business activities",I
 Ordinary trash,Clothes,"If possible, Dispose with local group recyclable resource collections.",C
 Ordinary trash,"Plant pots(pottery,biscuit firing)(within 50cm)","Dispose of breakable as ordinary trash after wrapping them with cardboards and writing \"BREAKABLES:DANGER\" on them. The case of over 50cm in the longest side, Oversized trash.",P
 Oversized trash,"Plant pots(pottery,biscuit firing)(over 50cm)","The case of within 50cm in the longest side, Ordinary trash.",P
 Ordinary trash,Plant pots(Plastic)(within 50cm),"The case of over 50cm in the longest side, Oversized trash",P
 Oversized trash,Plant pots(Plastic)(over 50cm),"The case of within 50cm in the longest side, Ordinary trash.",P
-Oversized trash,Washlets(bidet), "When a business operator change them, they are not collected by the City。Please ask the business operator to pick them up.",W
+Oversized trash,Washlets(bidet),"When a business operator change them, they are not collected by the City。Please ask the business operator to pick them up.",W
 Oversized trash,Wood carpet, Please cut witin 2m in the longest side.,W
-Ordinary trash,Wood deck panels(within 50cm), "Please contact a Waste Collection Office before, if you dispose as ordinary trash.",W
+Ordinary trash,Wood deck panels(within 50cm),"Please contact a Waste Collection Office before, if you dispose as ordinary trash.",W
 Oversized trash,Wook deck panels(over 50cm),"The case of within 50cm, Ordinary trash",W
 Mixed paper,The box of energy drink,,E
 Ordinary trash,MD(Disk),,M
 Plastic films of containers,Plastic bags for sweets etc.,,P
 Small metal articles,Ladle,,L
 Small metal articles,Grater,,G
-Ordinary trash,"Fallen leaves,clipped branch,cutted grass, board(within 50cm)",C"Cut into pieces with measurements of less than 50cm in length and 10cm in thickness, bundle with string, and dispose of abount three bundles per collection. The case of over 50cm in the longest length, Oversized trash after dried.",F
-Oversized trash,"Fallen leaves,clipped branch,cutted grass, board(over 50cm),"The case of within 50cm in the longest length, Ordinary trash.",F
+Ordinary trash,"Fallen leaves,clipped branch,cutted grass, board(within 50cm)","Cut into pieces with measurements of less than 50cm in length and 10cm in thickness, bundle with string, and dispose of abount three bundles per collection. The case of over 50cm in the longest length, Oversized trash after dried.",F
+Oversized trash,"Fallen leaves,clipped branch,cutted grass, board(over 50cm)","The case of within 50cm in the longest length, Ordinary trash.",F
 Ordinary trash,Toys(Plastic)(within 50cm),"The case of over 50cm in the longest length, Oversized trash",T
 Oversized trash,Toys(Plastic)(over 50cm),"The case of within 50cm in the longest length, Ordinary trash.",T
-Small metal articles, Toys(Metal, machine)(within 30cm),"The case of over 30cm in the longest length, Oversized trash.",T
-Oversized trash,Toys(Metal, machine)(over 30cm),"The case of within 30cm in the longest length, Small metal articles,T
+Small metal articles,"Toys(Metal, machine)(within 30cm)","The case of over 30cm in the longest length, Oversized trash.",T
+Oversized trash,"Toys(Metal, machine)(over 30cm)","The case of within 30cm in the longest length, Small metal articles",T
 Ordinary trash,thermometer,Wrapping them with cardbords and writing \" BREAKABLES DANGER\" on them.",T
 Ordinary trash,curtains,,C
 Ordinary trash,Carpets(within 50cm),"The case of over 50cm in the longest side, Oversized trash.",C
 Oversized trash,Carpets(over 50cm),"The case of within 50cm in the longest side, Ordinary trash.",C
 Small metal articles,electrical torch,Remove batteries.(batteries to Recyclable resources collection.),E
-Ordinary trash,Body warmer(disposable),Not disposable, Small metal articles,D
+Ordinary trash,"Body warmer(disposable),Not disposable",Small metal articles,D
 Ordinary trash,Mirror,Wrapping them with cardbords and writing \" BREAKABLES DANGER\" on them.",M
 Small metal articles,Squared hangers(Metaric),,S
 Small metal articles,Umbrellas,,U
@@ -46,7 +46,7 @@ Small metal articles,Humidifiers(within 30cm),"The case of over 30cm in the long
 Oversized trash,Humidifiers(over 30cm),"The case of within 30cm in the longest side, Small metal articles.",C
 "Empty cans,PET bottles",Cans for sweets etc.,,C
 Mixed paper,Boxes for sweets etc.,,B
-"Empty cans,PET bottles",Gas cassette cartridges,Please empty the gas.,,G
+"Empty cans,PET bottles","Gas cassette cartridges,Please empty the gas.",,G
 Ordinary trash,Cassette Tape,,C
 Small metal articles,カッター・剃刀の刃,刃を厚紙で包み「カッターキケン」などと表示する,か
 Ordinary trash,カットウィッグ（美容師練習用）,Ordinary trashで出す場合、あらかじめ家庭から出るものであることを生活環境事業所に連絡してください。,か
