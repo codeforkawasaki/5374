@@ -385,7 +385,7 @@ $(function() {
         quotes: false,
         delimiter: ",",
         newline: "\r\n"
-      }
+      };
       for (var i in line) {
         //空行はスルーする。
         if (line[i].length === 0) continue;
