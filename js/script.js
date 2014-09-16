@@ -92,14 +92,22 @@ var TrashModel = function(_lable, _cell, remarks, l10n) {
     l10n.entities.fri.value,
     l10n.entities.sat.value
   ];
+  var week_name = {}
+  week_name[l10n.entities.sun.value] = l10n.entities.sunday.value;
+  week_name[l10n.entities.mon.value] = l10n.entities.monday.value;
+  week_name[l10n.entities.tue.value] = l10n.entities.tuesday.value;
+  week_name[l10n.entities.wed.value] = l10n.entities.wednesday.value;
+  week_name[l10n.entities.thu.value] = l10n.entities.thursday.value;
+  week_name[l10n.entities.fri.value] = l10n.entities.friday.value;
+  week_name[l10n.entities.sat.value] = l10n.entities.saturday.value;;
 
   var parts = [];
   for (var j in this.dayCell) {
     parts = this.dayCell[j].match(/([^0-9]+)([0-9])/);
     if ($.inArray(this.dayCell[j], day_enum) > 0) {
-      result_text += "毎週" + this.dayCell[j] + "曜日 ";
+      result_text += "毎週" + week_name[this.dayCell[j]] + " ";
     } else if (parts.length === 3 && parts[1] != "*") {
-      result_text += "第" + parts[2] + parts[1] + "曜日 ";
+      result_text += "第" + parts[2] + week_name[parts[1]] + " ";
     } else if (parts.length === 3 && parts[1] == "*") {
     } else {
       // 不定期回収の場合（YYYYMMDD指定）
@@ -460,7 +468,11 @@ $(function() {
           // 区コードが一致した場合のみデータ格納
           if(area.mastercode == mastercode){
             areaModels.push(area);
-            ctx.localize(['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], function(l10n) {
+            var params = [
+              'sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat',
+              'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'
+            ];
+            ctx.localize(params, function(l10n) {
               //２列目以降の処理
               for (var r = 3; r < 3 + MaxDescription; r++) {
                 if (area_days_label[r]) {
