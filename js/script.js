@@ -93,12 +93,14 @@ var TrashModel = function(_lable, _cell, remarks, l10n) {
     l10n.entities.sat.value
   ];
 
+  var parts = [];
   for (var j in this.dayCell) {
-    if ($.inArray(this.dayCell[j], day_enum)) {
+    parts = this.dayCell[j].match(/([^0-9]+)([0-9])/);
+    if ($.inArray(this.dayCell[j], day_enum) > 0) {
       result_text += "毎週" + this.dayCell[j] + "曜日 ";
-    } else if (this.dayCell[j].length === 2 && this.dayCell[j].substr(0,1) != "*") {
-      result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
-    } else if (this.dayCell[j].length === 2 && this.dayCell[j].substr(0,1) == "*") {
+    } else if (parts.length === 3 && parts[1] != "*") {
+      result_text += "第" + parts[2] + parts[1] + "曜日 ";
+    } else if (parts.length === 3 && parts[1] == "*") {
     } else {
       // 不定期回収の場合（YYYYMMDD指定）
       result_text = "不定期 ";
