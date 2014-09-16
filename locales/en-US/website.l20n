@@ -77,3 +77,11 @@ Facebookページ<br>
 <thu """Thu""">
 <fri """Fri""">
 <sat """Sat""">
+<sunday "{{sun}}day">
+<monday "{{mon}}day">
+<tuesday "{{tue}}sday">
+<wednesday "{{wed}}nesday">
+<thursday "{{thu}}rsday">
+<friday "{{fri}}day">
+<saturday "{{sat}}urday">
+

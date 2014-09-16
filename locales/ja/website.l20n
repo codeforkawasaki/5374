@@ -67,3 +67,11 @@ Facebookページ<br>
 <thu """木""">
 <fri """金""">
 <sat """土""">
+<sunday "{{sun}}曜日">
+<monday "{{mon}}曜日">
+<tuesday "{{tue}}曜日">
+<wednesday "{{wed}}曜日">
+<thursday "{{thu}}曜日">
+<friday "{{fri}}曜日">
+<saturday "{{sat}}曜日">
+
