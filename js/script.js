@@ -316,7 +316,6 @@ $(function() {
   var areaModels = [];
   var remarks = [];
   var areaMasterModels  = [];
-/*   var descriptions = []; */
 
   function setupL20n() {
     // ブラウザの言語設定
@@ -588,27 +587,29 @@ $(function() {
           var target_tag = "";
           var furigana = "";
           var targets = description.targets;
-          for (var j in targets) {
-            var target = targets[j];
-            if (furigana != target.furigana) {
-              if (furigana !== "") {
-                target_tag += "</ul>";
-              }
-
-              furigana = target.furigana;
-
-              target_tag += '<h4 class="initials">' + furigana + "</h4>";
-              target_tag += "<ul>";
+          var targets2 = {};
+          // キーごとにグルーピング
+          for (var k = 0, len = targets.length; k < len; k++) {
+            if (!targets2[targets[k].furigana]) {
+              targets2[targets[k].furigana] = [];
             }
-
-            target_tag += '<li>' + target.name;
-            if (target.notice.length) {
-              target_tag += '<p class="note">' + target.notice + "</p>";
-            }
-            target_tag += "</li>";
+            targets2[targets[k].furigana].push(targets[k]);
           }
-
-          target_tag += "</ul>";
+          // キーをソート
+          var initial = Object.keys(targets2).sort();
+          for (var l = 0, len = initial.length; l < len; l++) {
+            target_tag += '<h4 class="initials">' + initial[l] + "</h4>";
+            target_tag += "<ul>";
+            for (var k = 0, len2 = targets2[initial[l]].length; k < len2; k++) {
+              var item = targets2[initial[l]][k];
+              target_tag += '<li>' + item.name;
+              if (item.notice.length) {
+                target_tag += '<p class="note">' + item.notice + "</p>";
+              }
+              target_tag += "</li>";
+            }
+            target_tag += "</ul>";
+          }
 
           var dateLabel = trash.getDateLabel();
           //あと何日かを計算する処理です。
