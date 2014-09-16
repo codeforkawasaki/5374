@@ -11,8 +11,8 @@ var AreaModel = function() {
   this.center;
   this.trash = [];
   /**
-  各ゴミのカテゴリに対して、最も直近の日付を計算します。
-*/
+    各ゴミのカテゴリに対して、最も直近の日付を計算します。
+  */
   this.calcMostRect = function() {
     for (var i = 0; i < this.trash.length; i++) {
       this.trash[i].calcMostRect(this);
@@ -42,8 +42,8 @@ var AreaModel = function() {
     }
   };
   /**
-  ゴミのカテゴリのソートを行います。
-*/
+    ゴミのカテゴリのソートを行います。
+  */
   this.sortTrash = function() {
     this.trash.sort(function(a, b) {
       var at = a.mostRecent.getTime();
@@ -250,7 +250,7 @@ var TrashModel = function(_lable, _cell, remarks, l10n) {
   };
 };
 /**
-センターのデータを管理します。
+  センターのデータを管理します。
 */
 var CenterModel = function(row) {
   function getDay(center, index) {
