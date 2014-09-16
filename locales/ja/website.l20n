@@ -75,3 +75,9 @@ Facebookページ<br>
 <friday "{{fri}}曜日">
 <saturday "{{sat}}曜日">
 
+<every "毎週">
+<first  "第１">
+<second "第２">
+<third  "第３">
+<fourth "第４">
+<fifth  "第５">

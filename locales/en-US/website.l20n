@@ -85,3 +85,9 @@ Facebookページ<br>
 <friday "{{fri}}day">
 <saturday "{{sat}}urday">
 
+<every "Every ">
+<first "The first ">
+<second "The second ">
+<third "The third ">
+<fourth "The fourth ">
+<fifth "The fifth ">

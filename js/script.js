@@ -101,13 +101,21 @@ var TrashModel = function(_lable, _cell, remarks, l10n) {
   week_name[l10n.entities.fri.value] = l10n.entities.friday.value;
   week_name[l10n.entities.sat.value] = l10n.entities.saturday.value;;
 
+  var week_enum = {
+    1: l10n.entities.first.value,
+    2: l10n.entities.second.value,
+    3: l10n.entities.third.value,
+    4: l10n.entities.fourth.value,
+    5: l10n.entities.fifth.value
+  };
+
   var parts = [];
   for (var j in this.dayCell) {
     parts = this.dayCell[j].match(/([^0-9]+)([0-9])/);
     if ($.inArray(this.dayCell[j], day_enum) > 0) {
-      result_text += "毎週" + week_name[this.dayCell[j]] + " ";
+      result_text += l10n.entities.every.value + week_name[this.dayCell[j]] + ", ";
     } else if (parts.length === 3 && parts[1] != "*") {
-      result_text += "第" + parts[2] + week_name[parts[1]] + " ";
+      result_text += week_enum[parts[2]] + week_name[parts[1]] + ", ";
     } else if (parts.length === 3 && parts[1] == "*") {
     } else {
       // 不定期回収の場合（YYYYMMDD指定）
@@ -470,7 +478,8 @@ $(function() {
             areaModels.push(area);
             var params = [
               'sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat',
-              'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'
+              'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday',
+              'every', 'first', 'second', 'third', 'fourth', 'fifth'
             ];
             ctx.localize(params, function(l10n) {
               //２列目以降の処理
