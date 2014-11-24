@@ -346,12 +346,12 @@ Ordinary trash,湯たんぽ,,ゆ
 Small metal articles,湯たんぽ（金属製）,,ゆ
 Ordinary trash,ライター（使い切り式）,ガス・オイルは使い切るか、抜いて出す,ら
 Small metal articles,ライター（充てん式）,ガス・オイルは使い切るか、抜いて出す,ら
-Small metal articles,ラジオ（30cm未満）,最長辺が30cm以上ならOversized waste。乾電池を取りはずす（乾電池は資源物へ）,ら
-Oversized waste,ラジオ（30cm以上）,最長辺が30cm以上ならOversized waste。乾電池を取りはずす（乾電池は資源物へ）,ら
-Plastic films of containers,ラップ（商品を包んでいたもの）,汚れたものはOrdinary trash,ら
-Mixed paper,ラップの芯,,ら
-Small metal articles,リモコン,,り
-Small metal articles,レーザープリンタ,たたんだ30cm以上ならOversized waste,れ
-Oversized waste,レーザープリンタ,たたんだ30cm以上ならOversized waste,れ
+Small metal articles,Radio（within 30cm）,"In the case of over 30cm in the longest side, place this item in Oversized waste.Remove batteries.(Place batteries at the Recyclable resources collection.)",R
+Oversized waste,Radio（over 30cm）,"In the case of over 30cm in the longest side, place this item in Oversized waste.Remove batteries.(Place batteries at the Recyclable resources collection.)",R
+Plastic films of containers,Plastic wrap（This is used to wrap up food items.）,"In the case of dirty things, place this item in Ordinary trash",P
+Mixed paper,Core of food plastic wrap,,C
+Small metal articles,Remote Controll,,R
+Small metal articles,Laser Printer,"You fold up it.In the case of over 30cm, place this item in Oversized waste",L
+Oversized waste,Laser Printer,"You fold up it.In the case of over 30cm, place this item in Oversized waste",L
 Mixed paper,Receipt,,R
-Plastic films of containers,レジ袋,,れ
+Plastic films of containers,Plastic bag,,P
