@@ -33,13 +33,13 @@ Ordinary trash,Toys(Plastic)(within 50cm),"The case of over 50cm in the longest 
 Oversized waste,Toys(Plastic)(over 50cm),"The case of within 50cm in the longest length, Ordinary trash.",T
 Small metal articles,"Toys(Metal, machine)(within 30cm)","The case of over 30cm in the longest length, Oversized waste.",T
 Oversized waste,"Toysç, machine)(over 30cm)","The case of within 30cm in the longest length, Small metal articles",T
-Ordinary trash,thermometer,Wrapping them with cardbords and writing \" BREAKABLES DANGER\" on them.",T
+Ordinary trash,thermometer,Wrapping them with cardbords and writing ’ BREAKABLES DANGER’ on them.",T
 Ordinary trash,curtains,,C
 Ordinary trash,Carpets(within 50cm),"The case of over 50cm in the longest side, Oversized waste.",C
 Oversized waste,Carpets(over 50cm),"The case of within 50cm in the longest side, Ordinary trash.",C
 Small metal articles,electrical torch,Remove batteries.(batteries to Recyclable resources collection.),E
 Ordinary trash,"Body warmer(disposable),Not disposable",Small metal articles,D
-Ordinary trash,Mirror,Wrapping them with cardbords and writing \" BREAKABLES DANGER\" on them.",M
+Ordinary trash,Mirror,Wrapping them with cardbords and writing ’ BREAKABLES DANGER’ on them.",M
 Small metal articles,Squared hangers(Metaric),,S
 Small metal articles,Umbrellas,,U
 Small metal articles,Humidifiers(within 30cm),"The case of over 30cm in the longest side, Oversized waste",C
@@ -48,7 +48,7 @@ Oversized waste,Humidifiers(over 30cm),"The case of within 30cm in the longest s
 Mixed paper,Boxes for sweets etc.,,B
 "Empty cans, PET bottles","Gas cassette cartridges,Please empty the gas.",,G
 Ordinary trash,Cassette Tape,,C
-Small metal articles,"Cutter・Razor Blade","Dispose of breakable as ordinary trash after wrapping them with cardboards and writing \"「カッターキケン」BREAKABLES:DANGER\" on the blade.",C
+Small metal articles,"Cutter・Razor Blade","Dispose of breakable as ordinary trash after wrapping them with cardboards and writing ’「カッターキケン」BREAKABLES:DANGER’ on the blade.",C
 Ordinary trash,wig(traininng wig),"When you dispose it as Ordinary trash,please inform Waste Collection Office that the trash is from home beforehand",w
 Ordinary trash,wig(fashion goods),,w	
 Plastic films of containers,Container of cup noodles(Plastic),"Lightly wash",C
@@ -61,8 +61,8 @@ Ordinary trash,Wastepaper(such as tissue paper),,W
 Mixed paper,Paper package container(paper mark),,P
 Mixed paper,Paper(pamphlets, wrapping paper, envelopes),,P
 Ordinary trash,Paper(Dirty paper and paper with strong smell),,P
-Ordinary trash,Glassware(within 50cm),"Wrapping them with cardboards and writing \"BREAKABLES:DANGER\"「ガラスキケン」on them. The case of over 50cm in the longest side, Oversized waste.",G
-Oversized waste,Glassware(over 50cm),"Wrapping them with cardboards and writing \"BREAKABLES:DANGER\"「ガラスキケン」on them. The case of within 50cm in the longest side, Ordinary trash.",G
+Ordinary trash,Glassware(within 50cm),"Wrapping them with cardboards and writing ’BREAKABLES:DANGER’「ガラスキケン」on them. The case of over 50cm in the longest side, Oversized waste.",G
+Oversized waste,Glassware(over 50cm),"Wrapping them with cardboards and writing ’BREAKABLES:DANGER’「ガラスキケン」on them. The case of within 50cm in the longest side, Ordinary trash.",G
 Oversized waste,Curtain rail,,C
 Ordinary trash,Leather,if possible,use local recyclable resource collection groups.",L
 Used batteries,Batteries(layered- and cylinder-type dry cell  batteries, and coin-type lithium cell (CR and BR type)),"Put them in transparent plastic bags and place them.If you have specific rules, such as for the residence association of your condominium, priority should be given to these rules",B
