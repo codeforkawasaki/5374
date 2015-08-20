@@ -347,8 +347,13 @@ $(function() {
       });
       ctx.ready(function() {
         // 実際のinit処理
+        if ( UseAreaMaster ) {  //   エリアマスターを利用するかどうか  setteing.js で設定可能にした
         masterAreaList();
-        //updateAreaList();
+        }
+        else {
+           updateAreaList("dummy");
+           $("#select_area_master").hide();    //  エリアマスタの選択ボックスを非表示にした
+         }
       });
       ctx.requestLocales(lang);
     });
@@ -436,7 +441,12 @@ $(function() {
 
         // ListメニューのHTMLを作成
         var selected_master_name = getSelectedAreaMasterName();
+        
+        
         var area_master_select_form = $("#select_area_master");
+        
+        
+        
         var select_master_html = "";
 
         select_master_html += '<option value="-1">' + l10n.entities.selectward.value + '</option>';
@@ -469,9 +479,18 @@ $(function() {
         for (var i in tmp) {
           var row = tmp[i];
           var area = new AreaModel();
+          
+          if ( UseAreaMaster ) {  //   エリアマスターを利用するかどうか  setteing.js で設定可能にした
           area.mastercode = row[0];
           area.label = row[1];
           area.centerName = row[2];
+          }
+          else {
+           area.mastercode = "dummy";
+          area.label = row[0];
+          area.centerName = row[1];
+          
+          }
 
           // 区コードが一致した場合のみデータ格納
           if(area.mastercode == mastercode){
@@ -489,7 +508,9 @@ $(function() {
                   area.trash.push(trash);
                 }
               }
-            });
+            }
+            
+            );
           }
         }
 
